@@ -22,7 +22,6 @@ physics.
 - **Simulator (hosted, where games are played):** https://stigsim.protocol-institute.org/multiplayer/
 - **Simulator source (sibling checkout):** `/Users/wip/work/protocol-institute/stigsim`
 - `log/` — session log, one file per day. **Read the latest before doing anything** (see below)
-- `games-records/` — raw `.run.json` replay records (the evidence; treat as read-only)
 - `research/model.md` — **start here.** The four terms, the variables and which are held fixed, what
   is measured vs derived vs guessed, and the one open blank
 - `research/coordination-horizon.md` — the detailed write-up of the 96-run horizon measurement
@@ -37,7 +36,6 @@ physics.
 - `tools/horizon.sh` → `tools/horizon.ts` — coordination-horizon sweep (H8)
 - `tools/digest.py` — older raw-JSON reader, fallback only
 - `results/` — headless sweep output (experimental evidence, distinct from game records)
-- `summaries/` — interpreted summaries; compare and share these, not the records
 
 There is no build, lint, or test setup here — the "code" is analysis scripts over records.
 
@@ -103,8 +101,8 @@ Start with the summarizer, which decodes through stigsim's own vocabulary (topol
 by name) and computes the derived measures the hypotheses cite:
 
 ```bash
-./tools/summarize.sh games-records/<file>.run.json           # human-readable
-./tools/summarize.sh games-records/<file>.run.json --json    # 8 KB summary artifact
+./tools/summarize.sh <file>.run.json           # human-readable
+./tools/summarize.sh <file>.run.json --json    # 8 KB summary artifact
 ```
 
 It needs stigsim's toolchain (`pnpm install` in that checkout; override the location with
@@ -113,15 +111,15 @@ deterministically at full tick resolution. Ad-hoc extraction:
 
 ```bash
 # top-level shape
-jq 'to_entries | map({(.key): (.value|type)}) | add' games-records/*.run.json
+jq 'to_entries | map({(.key): (.value|type)}) | add' <file>.run.json
 
 # outcome only
-jq '.outcome.data' games-records/<file>.run.json
+jq '.outcome.data' <file>.run.json
 
 # every Nth metrics sample, projected
 jq -c '.channels.metrics.samples[] | select(.t % 500 == 0)
        | {t, pop: [.data.colonies[].population], food: [.data.colonies[].foodCollected]}' \
-   games-records/<file>.run.json
+   <file>.run.json
 ```
 
 Filename convention: `stigsim-<mode>-<masterSeed>-<endTick>.run.json`
