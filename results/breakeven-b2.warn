@@ -1,0 +1,5 @@
+WARNING: 462/4928 runs could not be placed at the requested distance.
+The maze has no cell that far from the nest, so the food went to the furthest one instead.
+These rows are NOT measurements at the requested distance — drop them:
+    want 65 -> actually 57..64 cells (154 runs)
+    want 75 -> actually 57..70 cells (308 runs)

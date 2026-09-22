@@ -1,0 +1,30 @@
+
+=== evap 0.005 — is the match real? (standing field mass at t=2250, median) ===
+  clean window: latest sample where every arm still holds >=50% of the source.
+arm           ants  gain  ants*gain   fieldMass   vs pair  food left
+base-40         40     1         40       36343         —        459
+quiet-80        80     1         80       63546     0.98x        386
+loud-40x2       40     2         80       64878     1.02x        461
+quiet-120      120     1        120       68864     0.71x        292
+loud-40x3       40     3        120       96319     1.40x        460
+  dry ants at end (median): base-40 35/40, quiet-80 80/80, loud-40x2 34/40, quiet-120 120/120, loud-40x3 35/40
+
+=== evap 0.005 — median food delivered, by distance ===
+dist           base-40    quiet-80   loud-40x2   quiet-120   loud-40x3
+0-14               500         500         500         500         500   n=5
+15-29              500         500         500         500         500   n=15
+30-44              286         499         217         500         326   n=25
+45-59              180         408          80         494         173   n=33
+60-74               32         425          63         498          48   n=13
+75-89               23         103          39         308          34   n=4
+90-104              25         296         158         498          17   n=1
+
+=== evap 0.005 — loudness at fixed headcount (all N=40, paired on seed) ===
+  base-40 -> loud-40x2: median diff 0.0 food  (louder ahead on 38/96 seeds, behind on 32, tied on 26)
+  base-40 -> loud-40x3: median diff 0.0 food  (louder ahead on 35/96 seeds, behind on 35, tied on 26)
+
+=== evap 0.005 — matched-pair verdict (paired on seed, Wilcoxon-style sign count) ===
+quiet-80 vs loud-40x2: median diff 25.0 food  (quiet-80 ahead on 57/96 seeds, behind on 19, tied on 20)
+quiet-120 vs loud-40x3: median diff 72.5 food  (quiet-120 ahead on 64/96 seeds, behind on 11, tied on 21)
+
+n=480 runs, 6000 ticks, loopRate 0.12, 96 seeds per arm.

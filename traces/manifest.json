@@ -1,0 +1,162 @@
+[
+ {
+  "file": "exp2-comb-0-junctions-40-ants-scent.trace.json",
+  "experiment": "2",
+  "title": "Comb, 0 junctions, 40 ants, with scent",
+  "look_for": "A plain corridor. Ants can only go forward, so the scent is irrelevant. 720 food, the same as scent off.",
+  "expect": 720,
+  "command": "./tools/export-trace.sh --kind comb --dist 40 --k 0 --ants 40 --seed 1 --lay full --ticks 6000"
+ },
+ {
+  "file": "exp2-comb-0-junctions-40-ants-no-scent.trace.json",
+  "experiment": "2",
+  "title": "Comb, 0 junctions, 40 ants, scent off",
+  "look_for": "Exactly the same 720 food.",
+  "expect": 720,
+  "command": "./tools/export-trace.sh --kind comb --dist 40 --k 0 --ants 40 --seed 1 --lay none --ticks 6000"
+ },
+ {
+  "file": "exp3-comb-4-junctions-40-ants-scent.trace.json",
+  "experiment": "3",
+  "title": "Comb, 4 junctions, 40 ants, with scent",
+  "look_for": "By about tick 1,000 the scent colony runs at its ceiling (about 62 food per 500 ticks), walking straight past all four branches. 695 food by tick 6,000.",
+  "expect": 695,
+  "command": "./tools/export-trace.sh --kind comb --dist 40 --k 4 --ants 40 --seed 4 --lay full --ticks 6000"
+ },
+ {
+  "file": "exp3-comb-4-junctions-40-ants-no-scent.trace.json",
+  "experiment": "3",
+  "title": "Comb, 4 junctions, 40 ants, scent off",
+  "look_for": "Ants turn into a branch at half of all forks, all run long. 167 food.",
+  "expect": 167,
+  "command": "./tools/export-trace.sh --kind comb --dist 40 --k 4 --ants 40 --seed 4 --lay none --ticks 6000"
+ },
+ {
+  "file": "exp3-comb-12-junctions-40-ants-scent.trace.json",
+  "experiment": "3",
+  "title": "Comb, 12 junctions, 40 ants, with scent",
+  "look_for": "Twelve branches. Almost nothing arrives for 3,000 ticks (19 food); the trail forms around tick 3,500, then the colony climbs toward its ceiling. 347 food.",
+  "expect": 347,
+  "command": "./tools/export-trace.sh --kind comb --dist 40 --k 12 --ants 40 --seed 6 --lay full --ticks 6000"
+ },
+ {
+  "file": "exp3-comb-12-junctions-40-ants-no-scent.trace.json",
+  "experiment": "3",
+  "title": "Comb, 12 junctions, 40 ants, scent off",
+  "look_for": "Ants wander the dead ends all run. 32 food.",
+  "expect": 32,
+  "command": "./tools/export-trace.sh --kind comb --dist 40 --k 12 --ants 40 --seed 6 --lay none --ticks 6000"
+ },
+ {
+  "file": "exp4-maze-35-cells-48-ants-scent.trace.json",
+  "experiment": "4",
+  "title": "Branchy random maze, food 35 cells out, 48 ants, with scent",
+  "look_for": "A single highway forms from nest to food. 711 food.",
+  "expect": 711,
+  "command": "./tools/export-trace.sh --kind maze --dist 35 --ants 48 --seed 22 --lay full --perSource 50000 --ticks 6000"
+ },
+ {
+  "file": "exp4-maze-35-cells-48-ants-no-scent.trace.json",
+  "experiment": "4",
+  "title": "Branchy random maze, food 35 cells out, 48 ants, scent off",
+  "look_for": "Same maze, same food, scent off: ants find the food only by chance. 19 food, about a thirty-seventh as much.",
+  "expect": 19,
+  "command": "./tools/export-trace.sh --kind maze --dist 35 --ants 48 --seed 22 --lay none --perSource 50000 --ticks 6000"
+ },
+ {
+  "file": "retracted-ridge-15-cells-128-ants-capped-scent.trace.json",
+  "experiment": "4",
+  "title": "Why the ridge was wrong: 15 cells, 128 ants, food capped at 2,500, with scent",
+  "look_for": "Watch the food counter: the source is empty at tick 3,060, and the colony delivers nothing after that. Its score is stuck at the 2,500 cap.",
+  "expect": 2500,
+  "command": "./tools/export-trace.sh --kind maze --dist 15 --ants 128 --seed 1 --lay full --perSource 2500 --ticks 6000"
+ },
+ {
+  "file": "retracted-ridge-15-cells-128-ants-capped-no-scent.trace.json",
+  "experiment": "4",
+  "title": "Why the ridge was wrong: 15 cells, 128 ants, food capped at 2,500, scent off",
+  "look_for": "The twin keeps delivering all run (156 food). Dividing a capped score by this is what made the fake ridge.",
+  "expect": 156,
+  "command": "./tools/export-trace.sh --kind maze --dist 15 --ants 128 --seed 1 --lay none --perSource 2500 --ticks 6000"
+ },
+ {
+  "file": "exp5-maze-55-cells-16-ants-18000-ticks-scent.trace.json",
+  "experiment": "5",
+  "title": "Slow take-off: 55 cells, 16 ants, 18,000 ticks, with scent",
+  "look_for": "Food 55 cells out. Nothing arrives for 3,000 ticks; the trail forms around tick 4,000. At tick 6,000, where earlier runs stopped, it has 68 food. By 18,000 it has 448.",
+  "expect": 448,
+  "command": "./tools/export-trace.sh --kind maze --dist 55 --ants 16 --seed 4 --lay full --perSource 50000 --ticks 18000"
+ },
+ {
+  "file": "exp5-maze-55-cells-16-ants-18000-ticks-no-scent.trace.json",
+  "experiment": "5",
+  "title": "Slow take-off: 55 cells, 16 ants, 18,000 ticks, scent off",
+  "look_for": "The same seed with scent off: 24 food in 18,000 ticks.",
+  "expect": 24,
+  "command": "./tools/export-trace.sh --kind maze --dist 55 --ants 16 --seed 4 --lay none --perSource 50000 --ticks 18000"
+ },
+ {
+  "file": "exp5-comb-12-junctions-10-ants-54000-ticks-scent.trace.json",
+  "experiment": "5",
+  "title": "Hardest comb: 12 junctions, 10 ants, 54,000 ticks, with scent",
+  "look_for": "Ten ants, twelve forks. A trickle for 20,000 ticks (22 food by tick 18,000); the trail holds from about tick 22,000 and then the colony runs near its ceiling. 1,051 food by 54,000. Use the replay slider.",
+  "expect": 1051,
+  "command": "./tools/export-trace.sh --kind comb --dist 40 --k 12 --ants 10 --seed 6 --lay full --ticks 54000"
+ },
+ {
+  "file": "exp6-comb-12-junctions-20-ants.trace.json",
+  "experiment": "6",
+  "title": "Loudness, 12 junctions: 20 ants, scent \u00d71",
+  "look_for": "The base colony: 37 food by tick 6,000, trail forming around 7,000, 603 food by 18,000.",
+  "expect": 603,
+  "command": "./tools/export-trace.sh --kind comb --dist 40 --k 12 --ants 20 --gain 1 --seed 8 --lay full --ticks 18000"
+ },
+ {
+  "file": "exp6-comb-12-junctions-20-ants-3x-louder.trace.json",
+  "experiment": "6",
+  "title": "Loudness, 12 junctions: 20 ants, scent \u00d73",
+  "look_for": "The same 20 ants, each laying three times as much scent. The trail looks stronger but forms later, around tick 11,000. 460 food.",
+  "expect": 460,
+  "command": "./tools/export-trace.sh --kind comb --dist 40 --k 12 --ants 20 --gain 3 --seed 8 --lay full --ticks 18000"
+ },
+ {
+  "file": "exp6-comb-12-junctions-60-ants.trace.json",
+  "experiment": "6",
+  "title": "Loudness, 12 junctions: 60 ants, scent \u00d71",
+  "look_for": "Three times the ants, the same total scent as the loud colony. Its trail forms by tick 3,000. 2,907 food.",
+  "expect": 2907,
+  "command": "./tools/export-trace.sh --kind comb --dist 40 --k 12 --ants 60 --gain 1 --seed 8 --lay full --ticks 18000"
+ },
+ {
+  "file": "exp7-maze-40-cells-evaporation-0.005.trace.json",
+  "experiment": "7",
+  "title": "Evaporation 0.005, 40 cells, 40 ants",
+  "look_for": "The default decay rate: a steady trail. 440 food.",
+  "expect": 440,
+  "command": "./tools/export-trace.sh --kind maze --dist 40 --ants 40 --seed 19 --lay full --evap 0.005 --perSource 2500 --ticks 6000"
+ },
+ {
+  "file": "exp7-maze-40-cells-evaporation-0.05.trace.json",
+  "experiment": "7",
+  "title": "Evaporation 0.05, 40 cells, 40 ants",
+  "look_for": "Ten times faster decay: the trail never holds. 25 food.",
+  "expect": 25,
+  "command": "./tools/export-trace.sh --kind maze --dist 40 --ants 40 --seed 19 --lay full --evap 0.05 --perSource 2500 --ticks 6000"
+ },
+ {
+  "file": "exp8-comb-40-cells-gland-1800.trace.json",
+  "experiment": "8",
+  "title": "Gland 1,800 on a 40-cell comb, 4 junctions",
+  "look_for": "Enough scent for 30 cells of trail on a 40-cell path, so returning ants run dry 10 cells short of the nest. The colony still works, at 587 food.",
+  "expect": 587,
+  "command": "./tools/export-trace.sh --kind comb --dist 40 --k 4 --ants 40 --tank 1800 --seed 4 --lay full --ticks 6000"
+ },
+ {
+  "file": "exp8-comb-40-cells-gland-2400.trace.json",
+  "experiment": "8",
+  "title": "Gland 2,400 on a 40-cell comb, 4 junctions",
+  "look_for": "Enough for exactly 40 cells: the food trail reaches the nest. 703 food, the plateau.",
+  "expect": 703,
+  "command": "./tools/export-trace.sh --kind comb --dist 40 --k 4 --ants 40 --tank 2400 --seed 4 --lay full --ticks 6000"
+ }
+]

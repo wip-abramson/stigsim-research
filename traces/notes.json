@@ -1,0 +1,22 @@
+{
+ "exp3-comb-4-junctions-40-ants-scent.trace.json": "By about tick 1,000 the scent colony runs at its ceiling (about 62 food per 500 ticks), walking straight past all four branches. 695 food by tick 6,000.",
+ "exp3-comb-4-junctions-40-ants-no-scent.trace.json": "Ants turn into a branch at half of all forks, all run long. 167 food.",
+ "exp3-comb-12-junctions-40-ants-scent.trace.json": "Twelve branches. Almost nothing arrives for 3,000 ticks (19 food); the trail forms around tick 3,500, then the colony climbs toward its ceiling. 347 food.",
+ "exp3-comb-12-junctions-40-ants-no-scent.trace.json": "Ants wander the dead ends all run. 32 food.",
+ "exp2-comb-0-junctions-40-ants-scent.trace.json": "A plain corridor. Ants can only go forward, so the scent is irrelevant. 720 food, the same as scent off.",
+ "exp2-comb-0-junctions-40-ants-no-scent.trace.json": "Exactly the same 720 food.",
+ "exp4-maze-35-cells-48-ants-scent.trace.json": "A single highway forms from nest to food. 711 food.",
+ "exp4-maze-35-cells-48-ants-no-scent.trace.json": "Same maze, same food, scent off: ants find the food only by chance. 19 food, about a thirty-seventh as much.",
+ "retracted-ridge-15-cells-128-ants-capped-scent.trace.json": "Watch the food counter: the source is empty at tick 3,060, and the colony delivers nothing after that. Its score is stuck at the 2,500 cap.",
+ "retracted-ridge-15-cells-128-ants-capped-no-scent.trace.json": "The twin keeps delivering all run (156 food). Dividing a capped score by this is what made the fake ridge.",
+ "exp5-maze-55-cells-16-ants-18000-ticks-scent.trace.json": "Food 55 cells out. Nothing arrives for 3,000 ticks; the trail forms around tick 4,000. At tick 6,000, where earlier runs stopped, it has 68 food. By 18,000 it has 448.",
+ "exp5-maze-55-cells-16-ants-18000-ticks-no-scent.trace.json": "The same seed with scent off: 24 food in 18,000 ticks.",
+ "exp5-comb-12-junctions-10-ants-54000-ticks-scent.trace.json": "Ten ants, twelve forks. A trickle for 20,000 ticks (22 food by tick 18,000); the trail holds from about tick 22,000 and then the colony runs near its ceiling. 1,051 food by 54,000. Use the replay slider.",
+ "exp6-comb-12-junctions-20-ants.trace.json": "The base colony: 37 food by tick 6,000, trail forming around 7,000, 603 food by 18,000.",
+ "exp6-comb-12-junctions-20-ants-3x-louder.trace.json": "The same 20 ants, each laying three times as much scent. The trail looks stronger but forms later, around tick 11,000. 460 food.",
+ "exp6-comb-12-junctions-60-ants.trace.json": "Three times the ants, the same total scent as the loud colony. Its trail forms by tick 3,000. 2,907 food.",
+ "exp7-maze-40-cells-evaporation-0.005.trace.json": "The default decay rate: a steady trail. 440 food.",
+ "exp7-maze-40-cells-evaporation-0.05.trace.json": "Ten times faster decay: the trail never holds. 25 food.",
+ "exp8-comb-40-cells-gland-1800.trace.json": "Enough scent for 30 cells of trail on a 40-cell path, so returning ants run dry 10 cells short of the nest. The colony still works, at 587 food.",
+ "exp8-comb-40-cells-gland-2400.trace.json": "Enough for exactly 40 cells: the food trail reaches the nest. 703 food, the plateau."
+}

@@ -1,0 +1,9969 @@
+{
+  "base": {
+    "t0": 1500,
+    "ticks": 4000,
+    "amount": 1000,
+    "channel": "food",
+    "dist": 10,
+    "where": "empty",
+    "ants": 40,
+    "foodSources": 3,
+    "foodPerSource": 500,
+    "loopRate": 0.12,
+    "sample": 100
+  },
+  "results": [
+    {
+      "evap": 0.003,
+      "seed": "impulse-1",
+      "impulse": {
+        "cell": [
+          1,
+          3
+        ],
+        "distFromNest": 10,
+        "localPhero": 81,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.74,
+      "peakL1": 740.5,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 300,
+      "reconverged": null,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 740.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 548.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 406.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 300.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 222.63,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 164.85,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 122.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 90.39,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 66.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 49.56,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 36.7,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 27.18,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 20.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 14.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 11.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 8.17,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 6.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 4.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 3.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 2.46,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 1.82,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 1.35,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 1,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.74,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0.55,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0.4,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0.3,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0.22,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0.16,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0.09,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.003,
+      "seed": "impulse-2",
+      "impulse": {
+        "cell": [
+          5,
+          8
+        ],
+        "distFromNest": 11,
+        "localPhero": 14,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": true,
+      "captured": true,
+      "antsAtEnd": 20,
+      "antsAtStart": 40,
+      "captureTick": 3000,
+      "gain": 14.09,
+      "peakL1": 14092.1,
+      "peakTick": 5400,
+      "ticksToPeak": 3900,
+      "radius": 9,
+      "halfLife": 300,
+      "reconverged": null,
+      "foodDelta": -3,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 740.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 548.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 406.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 300.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 222.63,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 164.85,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 122.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 90.39,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 66.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 49.56,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 36.7,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 27.18,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 20.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 14.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 11.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 8.17,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 6.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 4.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 3.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 2.46,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 1.82,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 1.35,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 1,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.74,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0.55,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0.4,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0.3,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0.22,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0.16,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 1
+        },
+        {
+          "t": 4600,
+          "l1": 0.09,
+          "radius": 0,
+          "cells": 1,
+          "ants": 1
+        },
+        {
+          "t": 4700,
+          "l1": 567.11,
+          "radius": 8,
+          "cells": 11,
+          "ants": 9
+        },
+        {
+          "t": 4800,
+          "l1": 1246.41,
+          "radius": 9,
+          "cells": 36,
+          "ants": 14
+        },
+        {
+          "t": 4900,
+          "l1": 2818.07,
+          "radius": 9,
+          "cells": 47,
+          "ants": 15
+        },
+        {
+          "t": 5000,
+          "l1": 5358.61,
+          "radius": 9,
+          "cells": 47,
+          "ants": 18
+        },
+        {
+          "t": 5100,
+          "l1": 5675.72,
+          "radius": 9,
+          "cells": 47,
+          "ants": 20
+        },
+        {
+          "t": 5200,
+          "l1": 7644.85,
+          "radius": 9,
+          "cells": 47,
+          "ants": 20
+        },
+        {
+          "t": 5300,
+          "l1": 11290.41,
+          "radius": 9,
+          "cells": 47,
+          "ants": 20
+        },
+        {
+          "t": 5400,
+          "l1": 14092.06,
+          "radius": 9,
+          "cells": 47,
+          "ants": 20
+        },
+        {
+          "t": 5500,
+          "l1": 13649.25,
+          "radius": 9,
+          "cells": 47,
+          "ants": 20
+        }
+      ]
+    },
+    {
+      "evap": 0.003,
+      "seed": "impulse-3",
+      "impulse": {
+        "cell": [
+          2,
+          9
+        ],
+        "distFromNest": 9,
+        "localPhero": 85,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.74,
+      "peakL1": 740.5,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 300,
+      "reconverged": null,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 740.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 548.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 406.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 300.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 222.63,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 164.85,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 122.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 90.39,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 66.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 49.56,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 36.7,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 27.18,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 20.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 14.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 11.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 8.17,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 6.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 4.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 3.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 2.46,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 1.82,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 1.35,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 1,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.74,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0.55,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0.4,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0.3,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0.22,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0.16,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0.09,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.003,
+      "seed": "impulse-4",
+      "impulse": {
+        "cell": [
+          6,
+          5
+        ],
+        "distFromNest": 9,
+        "localPhero": 25,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.74,
+      "peakL1": 740.5,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 300,
+      "reconverged": null,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 740.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 548.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 406.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 300.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 222.63,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 164.85,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 122.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 90.39,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 66.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 49.56,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 36.7,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 27.18,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 20.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 14.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 11.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 8.17,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 6.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 4.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 3.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 2.46,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 1.82,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 1.35,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 1,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.74,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0.55,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0.4,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0.3,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0.22,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0.16,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0.09,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.003,
+      "seed": "impulse-5",
+      "impulse": {
+        "cell": [
+          2,
+          7
+        ],
+        "distFromNest": 11,
+        "localPhero": 2453,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.74,
+      "peakL1": 740.5,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 300,
+      "reconverged": null,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 740.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 548.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 406.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 300.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 222.63,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 164.85,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 122.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 90.39,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 66.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 49.56,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 36.7,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 27.18,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 20.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 14.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 11.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 8.17,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 6.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 4.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 3.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 2.46,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 1.82,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 1.35,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 1,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.74,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0.55,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0.4,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0.3,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0.22,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0.16,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0.09,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.003,
+      "seed": "impulse-6",
+      "impulse": {
+        "cell": [
+          9,
+          2
+        ],
+        "distFromNest": 11,
+        "localPhero": 1198,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.74,
+      "peakL1": 740.5,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 300,
+      "reconverged": null,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 740.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 548.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 406.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 300.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 222.63,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 164.85,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 122.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 90.39,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 66.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 49.56,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 36.7,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 27.18,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 20.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 14.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 11.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 8.17,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 6.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 4.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 3.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 2.46,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 1.82,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 1.35,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 1,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.74,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0.55,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0.4,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0.3,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0.22,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0.16,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0.09,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.003,
+      "seed": "impulse-7",
+      "impulse": {
+        "cell": [
+          8,
+          1
+        ],
+        "distFromNest": 11,
+        "localPhero": 190,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": true,
+      "captured": true,
+      "antsAtEnd": 39,
+      "antsAtStart": 40,
+      "captureTick": 2500,
+      "gain": 183.09,
+      "peakL1": 183085.5,
+      "peakTick": 5500,
+      "ticksToPeak": 4000,
+      "radius": 26,
+      "halfLife": 300,
+      "reconverged": null,
+      "foodDelta": 69,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 740.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 548.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 406.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 300.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 222.63,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 164.85,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 122.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 90.39,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 66.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 49.56,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 36.7,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 27.18,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 20.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 14.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 11.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 8.17,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 6.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 4.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 3.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 2.46,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 1.82,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 1.35,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 1,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.74,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 3994.33,
+          "radius": 11,
+          "cells": 43,
+          "ants": 4
+        },
+        {
+          "t": 4100,
+          "l1": 11046.13,
+          "radius": 17,
+          "cells": 76,
+          "ants": 5
+        },
+        {
+          "t": 4200,
+          "l1": 16730.52,
+          "radius": 26,
+          "cells": 133,
+          "ants": 10
+        },
+        {
+          "t": 4300,
+          "l1": 37793.1,
+          "radius": 26,
+          "cells": 181,
+          "ants": 36
+        },
+        {
+          "t": 4400,
+          "l1": 48260.24,
+          "radius": 26,
+          "cells": 183,
+          "ants": 37
+        },
+        {
+          "t": 4500,
+          "l1": 65005.15,
+          "radius": 26,
+          "cells": 188,
+          "ants": 37
+        },
+        {
+          "t": 4600,
+          "l1": 89388.26,
+          "radius": 26,
+          "cells": 198,
+          "ants": 34
+        },
+        {
+          "t": 4700,
+          "l1": 100498.41,
+          "radius": 26,
+          "cells": 214,
+          "ants": 35
+        },
+        {
+          "t": 4800,
+          "l1": 117882.93,
+          "radius": 26,
+          "cells": 214,
+          "ants": 38
+        },
+        {
+          "t": 4900,
+          "l1": 133119.91,
+          "radius": 26,
+          "cells": 214,
+          "ants": 39
+        },
+        {
+          "t": 5000,
+          "l1": 140762.11,
+          "radius": 26,
+          "cells": 214,
+          "ants": 39
+        },
+        {
+          "t": 5100,
+          "l1": 154690.23,
+          "radius": 26,
+          "cells": 214,
+          "ants": 39
+        },
+        {
+          "t": 5200,
+          "l1": 165227.2,
+          "radius": 26,
+          "cells": 214,
+          "ants": 39
+        },
+        {
+          "t": 5300,
+          "l1": 173029.65,
+          "radius": 26,
+          "cells": 214,
+          "ants": 39
+        },
+        {
+          "t": 5400,
+          "l1": 178807.25,
+          "radius": 26,
+          "cells": 214,
+          "ants": 39
+        },
+        {
+          "t": 5500,
+          "l1": 183085.47,
+          "radius": 26,
+          "cells": 214,
+          "ants": 39
+        }
+      ]
+    },
+    {
+      "evap": 0.003,
+      "seed": "impulse-8",
+      "impulse": {
+        "cell": [
+          8,
+          1
+        ],
+        "distFromNest": 11,
+        "localPhero": 205,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.74,
+      "peakL1": 740.5,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 300,
+      "reconverged": null,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 740.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 548.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 406.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 300.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 222.63,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 164.85,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 122.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 90.39,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 66.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 49.56,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 36.7,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 27.18,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 20.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 14.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 11.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 8.17,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 6.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 4.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 3.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 2.46,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 1.82,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 1.35,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 1,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.74,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0.55,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0.4,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0.3,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0.22,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0.16,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0.09,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0.05,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.005,
+      "seed": "impulse-1",
+      "impulse": {
+        "cell": [
+          1,
+          3
+        ],
+        "distFromNest": 10,
+        "localPhero": 6,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.61,
+      "peakL1": 605.8,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 200,
+      "reconverged": 2800,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 605.77,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 366.96,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 222.29,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 134.66,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 81.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 49.41,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 29.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 18.13,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 10.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 6.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 4.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 2.44,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 1.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0.54,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0.2,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.005,
+      "seed": "impulse-2",
+      "impulse": {
+        "cell": [
+          6,
+          7
+        ],
+        "distFromNest": 11,
+        "localPhero": 1,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": true,
+      "captured": true,
+      "antsAtEnd": 37,
+      "antsAtStart": 40,
+      "captureTick": 1200,
+      "gain": 15.47,
+      "peakL1": 15472.6,
+      "peakTick": 4900,
+      "ticksToPeak": 3400,
+      "radius": 23,
+      "halfLife": 200,
+      "reconverged": null,
+      "foodDelta": -31,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 605.77,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 366.96,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 222.29,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 134.66,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 81.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 49.41,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 29.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 18.13,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 10.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 6.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 4.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 684.22,
+          "radius": 4,
+          "cells": 12,
+          "ants": 1
+        },
+        {
+          "t": 2800,
+          "l1": 2024.61,
+          "radius": 8,
+          "cells": 45,
+          "ants": 3
+        },
+        {
+          "t": 2900,
+          "l1": 3891.83,
+          "radius": 9,
+          "cells": 70,
+          "ants": 13
+        },
+        {
+          "t": 3000,
+          "l1": 5304.79,
+          "radius": 15,
+          "cells": 88,
+          "ants": 18
+        },
+        {
+          "t": 3100,
+          "l1": 8165.86,
+          "radius": 23,
+          "cells": 140,
+          "ants": 28
+        },
+        {
+          "t": 3200,
+          "l1": 10883.88,
+          "radius": 23,
+          "cells": 154,
+          "ants": 29
+        },
+        {
+          "t": 3300,
+          "l1": 11446.37,
+          "radius": 23,
+          "cells": 210,
+          "ants": 30
+        },
+        {
+          "t": 3400,
+          "l1": 10740.87,
+          "radius": 23,
+          "cells": 233,
+          "ants": 30
+        },
+        {
+          "t": 3500,
+          "l1": 10080.06,
+          "radius": 23,
+          "cells": 234,
+          "ants": 30
+        },
+        {
+          "t": 3600,
+          "l1": 10101.51,
+          "radius": 23,
+          "cells": 235,
+          "ants": 30
+        },
+        {
+          "t": 3700,
+          "l1": 9083.5,
+          "radius": 23,
+          "cells": 238,
+          "ants": 30
+        },
+        {
+          "t": 3800,
+          "l1": 8203.82,
+          "radius": 23,
+          "cells": 238,
+          "ants": 30
+        },
+        {
+          "t": 3900,
+          "l1": 7703.44,
+          "radius": 23,
+          "cells": 238,
+          "ants": 30
+        },
+        {
+          "t": 4000,
+          "l1": 8990.94,
+          "radius": 23,
+          "cells": 238,
+          "ants": 30
+        },
+        {
+          "t": 4100,
+          "l1": 7536.9,
+          "radius": 23,
+          "cells": 238,
+          "ants": 30
+        },
+        {
+          "t": 4200,
+          "l1": 9523.46,
+          "radius": 23,
+          "cells": 238,
+          "ants": 30
+        },
+        {
+          "t": 4300,
+          "l1": 8678.7,
+          "radius": 23,
+          "cells": 238,
+          "ants": 30
+        },
+        {
+          "t": 4400,
+          "l1": 9631.69,
+          "radius": 23,
+          "cells": 238,
+          "ants": 31
+        },
+        {
+          "t": 4500,
+          "l1": 11585.63,
+          "radius": 23,
+          "cells": 238,
+          "ants": 33
+        },
+        {
+          "t": 4600,
+          "l1": 14064.89,
+          "radius": 23,
+          "cells": 238,
+          "ants": 37
+        },
+        {
+          "t": 4700,
+          "l1": 15399.31,
+          "radius": 23,
+          "cells": 230,
+          "ants": 37
+        },
+        {
+          "t": 4800,
+          "l1": 15448.79,
+          "radius": 23,
+          "cells": 229,
+          "ants": 37
+        },
+        {
+          "t": 4900,
+          "l1": 15472.55,
+          "radius": 23,
+          "cells": 216,
+          "ants": 37
+        },
+        {
+          "t": 5000,
+          "l1": 14903.27,
+          "radius": 23,
+          "cells": 199,
+          "ants": 37
+        },
+        {
+          "t": 5100,
+          "l1": 13889.67,
+          "radius": 23,
+          "cells": 194,
+          "ants": 37
+        },
+        {
+          "t": 5200,
+          "l1": 13502.1,
+          "radius": 23,
+          "cells": 187,
+          "ants": 37
+        },
+        {
+          "t": 5300,
+          "l1": 11880.79,
+          "radius": 23,
+          "cells": 161,
+          "ants": 37
+        },
+        {
+          "t": 5400,
+          "l1": 11787.14,
+          "radius": 22,
+          "cells": 131,
+          "ants": 37
+        },
+        {
+          "t": 5500,
+          "l1": 9261.17,
+          "radius": 22,
+          "cells": 104,
+          "ants": 37
+        }
+      ]
+    },
+    {
+      "evap": 0.005,
+      "seed": "impulse-3",
+      "impulse": {
+        "cell": [
+          2,
+          9
+        ],
+        "distFromNest": 9,
+        "localPhero": 7,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.61,
+      "peakL1": 605.8,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 200,
+      "reconverged": 2800,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 605.77,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 366.96,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 222.29,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 134.66,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 81.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 49.41,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 29.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 18.13,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 10.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 6.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 4.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 2.44,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 1.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0.54,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0.2,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.005,
+      "seed": "impulse-4",
+      "impulse": {
+        "cell": [
+          6,
+          5
+        ],
+        "distFromNest": 9,
+        "localPhero": 2,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.61,
+      "peakL1": 605.8,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 200,
+      "reconverged": 2800,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 605.77,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 366.96,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 222.29,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 134.66,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 81.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 49.41,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 29.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 18.13,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 10.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 6.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 4.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 2.44,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 1.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0.54,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0.2,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.005,
+      "seed": "impulse-5",
+      "impulse": {
+        "cell": [
+          1,
+          6
+        ],
+        "distFromNest": 9,
+        "localPhero": 1750,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.61,
+      "peakL1": 605.8,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 200,
+      "reconverged": 2800,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 605.77,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 366.96,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 222.29,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 134.66,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 81.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 49.41,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 29.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 18.13,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 10.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 6.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 4.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 2.44,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 1.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0.54,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0.2,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.005,
+      "seed": "impulse-6",
+      "impulse": {
+        "cell": [
+          9,
+          2
+        ],
+        "distFromNest": 11,
+        "localPhero": 695,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.61,
+      "peakL1": 605.8,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 200,
+      "reconverged": 2800,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 605.77,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 366.96,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 222.29,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 134.66,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 81.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 49.41,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 29.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 18.13,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 10.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 6.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 4.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 2.44,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 1.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0.54,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0.2,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.005,
+      "seed": "impulse-7",
+      "impulse": {
+        "cell": [
+          6,
+          1
+        ],
+        "distFromNest": 11,
+        "localPhero": 6,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.61,
+      "peakL1": 605.8,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 200,
+      "reconverged": 2800,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 605.77,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 366.96,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 222.29,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 134.66,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 81.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 49.41,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 29.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 18.13,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 10.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 6.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 4.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 2.44,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 1.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0.54,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0.2,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.005,
+      "seed": "impulse-8",
+      "impulse": {
+        "cell": [
+          6,
+          1
+        ],
+        "distFromNest": 9,
+        "localPhero": 80,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.61,
+      "peakL1": 605.8,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 200,
+      "reconverged": 2800,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 605.77,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 366.96,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 222.29,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 134.66,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 81.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 49.41,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 29.93,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 18.13,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 10.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 6.65,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 4.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 2.44,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 1.48,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0.9,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0.54,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0.2,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0.07,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.01,
+      "seed": "impulse-1",
+      "impulse": {
+        "cell": [
+          1,
+          3
+        ],
+        "distFromNest": 10,
+        "localPhero": 0,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": true,
+      "captured": true,
+      "antsAtEnd": 35,
+      "antsAtStart": 40,
+      "captureTick": 100,
+      "gain": 24.09,
+      "peakL1": 24091.1,
+      "peakTick": 5100,
+      "ticksToPeak": 3600,
+      "radius": 28,
+      "halfLife": 100,
+      "reconverged": null,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 366.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 12
+        },
+        {
+          "t": 1700,
+          "l1": 133.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 9
+        },
+        {
+          "t": 1800,
+          "l1": 49.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 11
+        },
+        {
+          "t": 1900,
+          "l1": 2103.89,
+          "radius": 16,
+          "cells": 34,
+          "ants": 26
+        },
+        {
+          "t": 2000,
+          "l1": 6982.97,
+          "radius": 16,
+          "cells": 34,
+          "ants": 29
+        },
+        {
+          "t": 2100,
+          "l1": 8077.52,
+          "radius": 16,
+          "cells": 34,
+          "ants": 29
+        },
+        {
+          "t": 2200,
+          "l1": 7114.21,
+          "radius": 16,
+          "cells": 34,
+          "ants": 28
+        },
+        {
+          "t": 2300,
+          "l1": 6808.61,
+          "radius": 16,
+          "cells": 34,
+          "ants": 28
+        },
+        {
+          "t": 2400,
+          "l1": 8177.15,
+          "radius": 16,
+          "cells": 34,
+          "ants": 28
+        },
+        {
+          "t": 2500,
+          "l1": 8272.32,
+          "radius": 16,
+          "cells": 34,
+          "ants": 28
+        },
+        {
+          "t": 2600,
+          "l1": 7939.58,
+          "radius": 16,
+          "cells": 34,
+          "ants": 28
+        },
+        {
+          "t": 2700,
+          "l1": 8265.82,
+          "radius": 16,
+          "cells": 34,
+          "ants": 28
+        },
+        {
+          "t": 2800,
+          "l1": 8438.01,
+          "radius": 16,
+          "cells": 34,
+          "ants": 28
+        },
+        {
+          "t": 2900,
+          "l1": 7795.2,
+          "radius": 16,
+          "cells": 33,
+          "ants": 28
+        },
+        {
+          "t": 3000,
+          "l1": 8274.54,
+          "radius": 16,
+          "cells": 33,
+          "ants": 28
+        },
+        {
+          "t": 3100,
+          "l1": 8105.6,
+          "radius": 16,
+          "cells": 33,
+          "ants": 28
+        },
+        {
+          "t": 3200,
+          "l1": 7634.73,
+          "radius": 16,
+          "cells": 33,
+          "ants": 28
+        },
+        {
+          "t": 3300,
+          "l1": 7308.84,
+          "radius": 16,
+          "cells": 33,
+          "ants": 28
+        },
+        {
+          "t": 3400,
+          "l1": 6804,
+          "radius": 16,
+          "cells": 33,
+          "ants": 28
+        },
+        {
+          "t": 3500,
+          "l1": 6893.47,
+          "radius": 16,
+          "cells": 33,
+          "ants": 28
+        },
+        {
+          "t": 3600,
+          "l1": 6862.88,
+          "radius": 16,
+          "cells": 33,
+          "ants": 28
+        },
+        {
+          "t": 3700,
+          "l1": 7753.93,
+          "radius": 18,
+          "cells": 55,
+          "ants": 28
+        },
+        {
+          "t": 3800,
+          "l1": 8124.36,
+          "radius": 19,
+          "cells": 80,
+          "ants": 28
+        },
+        {
+          "t": 3900,
+          "l1": 8980.77,
+          "radius": 26,
+          "cells": 107,
+          "ants": 28
+        },
+        {
+          "t": 4000,
+          "l1": 9511.06,
+          "radius": 28,
+          "cells": 141,
+          "ants": 28
+        },
+        {
+          "t": 4100,
+          "l1": 9003.96,
+          "radius": 28,
+          "cells": 161,
+          "ants": 28
+        },
+        {
+          "t": 4200,
+          "l1": 8596.66,
+          "radius": 28,
+          "cells": 168,
+          "ants": 28
+        },
+        {
+          "t": 4300,
+          "l1": 7785.2,
+          "radius": 28,
+          "cells": 177,
+          "ants": 28
+        },
+        {
+          "t": 4400,
+          "l1": 7192.34,
+          "radius": 28,
+          "cells": 177,
+          "ants": 28
+        },
+        {
+          "t": 4500,
+          "l1": 6975.64,
+          "radius": 28,
+          "cells": 177,
+          "ants": 28
+        },
+        {
+          "t": 4600,
+          "l1": 6896.32,
+          "radius": 28,
+          "cells": 177,
+          "ants": 28
+        },
+        {
+          "t": 4700,
+          "l1": 6867.31,
+          "radius": 28,
+          "cells": 177,
+          "ants": 28
+        },
+        {
+          "t": 4800,
+          "l1": 6856.67,
+          "radius": 28,
+          "cells": 171,
+          "ants": 28
+        },
+        {
+          "t": 4900,
+          "l1": 6757.69,
+          "radius": 28,
+          "cells": 149,
+          "ants": 28
+        },
+        {
+          "t": 5000,
+          "l1": 13462.77,
+          "radius": 28,
+          "cells": 128,
+          "ants": 31
+        },
+        {
+          "t": 5100,
+          "l1": 24091.11,
+          "radius": 26,
+          "cells": 163,
+          "ants": 34
+        },
+        {
+          "t": 5200,
+          "l1": 20148.46,
+          "radius": 26,
+          "cells": 183,
+          "ants": 35
+        },
+        {
+          "t": 5300,
+          "l1": 23065.15,
+          "radius": 28,
+          "cells": 198,
+          "ants": 35
+        },
+        {
+          "t": 5400,
+          "l1": 16760.04,
+          "radius": 28,
+          "cells": 192,
+          "ants": 35
+        },
+        {
+          "t": 5500,
+          "l1": 13267.9,
+          "radius": 28,
+          "cells": 192,
+          "ants": 35
+        }
+      ]
+    },
+    {
+      "evap": 0.01,
+      "seed": "impulse-2",
+      "impulse": {
+        "cell": [
+          6,
+          7
+        ],
+        "distFromNest": 11,
+        "localPhero": 0,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": true,
+      "captured": true,
+      "antsAtEnd": 39,
+      "antsAtStart": 40,
+      "captureTick": 100,
+      "gain": 23.99,
+      "peakL1": 23989.4,
+      "peakTick": 5200,
+      "ticksToPeak": 3700,
+      "radius": 22,
+      "halfLife": null,
+      "reconverged": null,
+      "foodDelta": 1,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 4792.76,
+          "radius": 7,
+          "cells": 34,
+          "ants": 20
+        },
+        {
+          "t": 1700,
+          "l1": 13758.57,
+          "radius": 8,
+          "cells": 58,
+          "ants": 31
+        },
+        {
+          "t": 1800,
+          "l1": 10332.61,
+          "radius": 8,
+          "cells": 72,
+          "ants": 31
+        },
+        {
+          "t": 1900,
+          "l1": 7065.21,
+          "radius": 8,
+          "cells": 72,
+          "ants": 31
+        },
+        {
+          "t": 2000,
+          "l1": 6241.59,
+          "radius": 8,
+          "cells": 72,
+          "ants": 31
+        },
+        {
+          "t": 2100,
+          "l1": 7603.57,
+          "radius": 22,
+          "cells": 81,
+          "ants": 31
+        },
+        {
+          "t": 2200,
+          "l1": 8268.58,
+          "radius": 22,
+          "cells": 105,
+          "ants": 31
+        },
+        {
+          "t": 2300,
+          "l1": 7791.57,
+          "radius": 22,
+          "cells": 105,
+          "ants": 31
+        },
+        {
+          "t": 2400,
+          "l1": 9059.38,
+          "radius": 22,
+          "cells": 121,
+          "ants": 31
+        },
+        {
+          "t": 2500,
+          "l1": 9220.08,
+          "radius": 22,
+          "cells": 142,
+          "ants": 31
+        },
+        {
+          "t": 2600,
+          "l1": 8949.07,
+          "radius": 22,
+          "cells": 161,
+          "ants": 31
+        },
+        {
+          "t": 2700,
+          "l1": 9198.75,
+          "radius": 22,
+          "cells": 160,
+          "ants": 31
+        },
+        {
+          "t": 2800,
+          "l1": 8024.52,
+          "radius": 22,
+          "cells": 160,
+          "ants": 31
+        },
+        {
+          "t": 2900,
+          "l1": 7689.37,
+          "radius": 22,
+          "cells": 138,
+          "ants": 31
+        },
+        {
+          "t": 3000,
+          "l1": 7646.53,
+          "radius": 22,
+          "cells": 133,
+          "ants": 31
+        },
+        {
+          "t": 3100,
+          "l1": 6937.18,
+          "radius": 22,
+          "cells": 128,
+          "ants": 31
+        },
+        {
+          "t": 3200,
+          "l1": 7081.1,
+          "radius": 22,
+          "cells": 128,
+          "ants": 31
+        },
+        {
+          "t": 3300,
+          "l1": 7739.91,
+          "radius": 22,
+          "cells": 127,
+          "ants": 31
+        },
+        {
+          "t": 3400,
+          "l1": 7533.33,
+          "radius": 22,
+          "cells": 122,
+          "ants": 31
+        },
+        {
+          "t": 3500,
+          "l1": 7544.77,
+          "radius": 22,
+          "cells": 92,
+          "ants": 31
+        },
+        {
+          "t": 3600,
+          "l1": 7576.7,
+          "radius": 14,
+          "cells": 66,
+          "ants": 31
+        },
+        {
+          "t": 3700,
+          "l1": 7565.37,
+          "radius": 12,
+          "cells": 56,
+          "ants": 31
+        },
+        {
+          "t": 3800,
+          "l1": 7566.36,
+          "radius": 11,
+          "cells": 39,
+          "ants": 31
+        },
+        {
+          "t": 3900,
+          "l1": 7567.91,
+          "radius": 8,
+          "cells": 38,
+          "ants": 31
+        },
+        {
+          "t": 4000,
+          "l1": 7567.3,
+          "radius": 8,
+          "cells": 38,
+          "ants": 31
+        },
+        {
+          "t": 4100,
+          "l1": 8180.99,
+          "radius": 8,
+          "cells": 38,
+          "ants": 31
+        },
+        {
+          "t": 4200,
+          "l1": 8493.68,
+          "radius": 8,
+          "cells": 38,
+          "ants": 31
+        },
+        {
+          "t": 4300,
+          "l1": 8288.23,
+          "radius": 8,
+          "cells": 38,
+          "ants": 31
+        },
+        {
+          "t": 4400,
+          "l1": 8278.56,
+          "radius": 8,
+          "cells": 38,
+          "ants": 31
+        },
+        {
+          "t": 4500,
+          "l1": 9179.47,
+          "radius": 22,
+          "cells": 60,
+          "ants": 31
+        },
+        {
+          "t": 4600,
+          "l1": 9565.22,
+          "radius": 22,
+          "cells": 69,
+          "ants": 31
+        },
+        {
+          "t": 4700,
+          "l1": 9709.52,
+          "radius": 22,
+          "cells": 80,
+          "ants": 31
+        },
+        {
+          "t": 4800,
+          "l1": 9763.29,
+          "radius": 22,
+          "cells": 96,
+          "ants": 31
+        },
+        {
+          "t": 4900,
+          "l1": 9998.04,
+          "radius": 22,
+          "cells": 105,
+          "ants": 31
+        },
+        {
+          "t": 5000,
+          "l1": 9473.12,
+          "radius": 22,
+          "cells": 105,
+          "ants": 31
+        },
+        {
+          "t": 5100,
+          "l1": 14405.62,
+          "radius": 22,
+          "cells": 109,
+          "ants": 37
+        },
+        {
+          "t": 5200,
+          "l1": 23989.35,
+          "radius": 22,
+          "cells": 109,
+          "ants": 38
+        },
+        {
+          "t": 5300,
+          "l1": 17190.28,
+          "radius": 22,
+          "cells": 109,
+          "ants": 39
+        },
+        {
+          "t": 5400,
+          "l1": 13833.43,
+          "radius": 22,
+          "cells": 109,
+          "ants": 39
+        },
+        {
+          "t": 5500,
+          "l1": 14054.21,
+          "radius": 22,
+          "cells": 109,
+          "ants": 39
+        }
+      ]
+    },
+    {
+      "evap": 0.01,
+      "seed": "impulse-3",
+      "impulse": {
+        "cell": [
+          2,
+          9
+        ],
+        "distFromNest": 9,
+        "localPhero": 0,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.37,
+      "peakL1": 366,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 100,
+      "reconverged": 1400,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 366.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 133.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 49.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 17.95,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 6.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 2.41,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 0.88,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 0.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.01,
+      "seed": "impulse-4",
+      "impulse": {
+        "cell": [
+          6,
+          5
+        ],
+        "distFromNest": 9,
+        "localPhero": 0,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": true,
+      "captured": true,
+      "antsAtEnd": 40,
+      "antsAtStart": 40,
+      "captureTick": 500,
+      "gain": 67.09,
+      "peakL1": 67088.1,
+      "peakTick": 5000,
+      "ticksToPeak": 3500,
+      "radius": 24,
+      "halfLife": 100,
+      "reconverged": null,
+      "foodDelta": -63,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 366.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 133.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 49.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 17.95,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 6.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 1
+        },
+        {
+          "t": 2100,
+          "l1": 2.41,
+          "radius": 0,
+          "cells": 1,
+          "ants": 1
+        },
+        {
+          "t": 2200,
+          "l1": 3030.33,
+          "radius": 24,
+          "cells": 48,
+          "ants": 29
+        },
+        {
+          "t": 2300,
+          "l1": 11468.44,
+          "radius": 24,
+          "cells": 180,
+          "ants": 36
+        },
+        {
+          "t": 2400,
+          "l1": 19960.26,
+          "radius": 24,
+          "cells": 291,
+          "ants": 39
+        },
+        {
+          "t": 2500,
+          "l1": 29024.92,
+          "radius": 24,
+          "cells": 338,
+          "ants": 39
+        },
+        {
+          "t": 2600,
+          "l1": 32518.48,
+          "radius": 24,
+          "cells": 394,
+          "ants": 40
+        },
+        {
+          "t": 2700,
+          "l1": 35340.38,
+          "radius": 24,
+          "cells": 399,
+          "ants": 40
+        },
+        {
+          "t": 2800,
+          "l1": 40725.54,
+          "radius": 24,
+          "cells": 421,
+          "ants": 40
+        },
+        {
+          "t": 2900,
+          "l1": 48537.53,
+          "radius": 24,
+          "cells": 437,
+          "ants": 40
+        },
+        {
+          "t": 3000,
+          "l1": 55196.47,
+          "radius": 24,
+          "cells": 437,
+          "ants": 40
+        },
+        {
+          "t": 3100,
+          "l1": 55927.84,
+          "radius": 24,
+          "cells": 438,
+          "ants": 40
+        },
+        {
+          "t": 3200,
+          "l1": 52189.77,
+          "radius": 24,
+          "cells": 443,
+          "ants": 40
+        },
+        {
+          "t": 3300,
+          "l1": 48865.24,
+          "radius": 24,
+          "cells": 443,
+          "ants": 40
+        },
+        {
+          "t": 3400,
+          "l1": 38307.45,
+          "radius": 24,
+          "cells": 439,
+          "ants": 40
+        },
+        {
+          "t": 3500,
+          "l1": 28013.05,
+          "radius": 24,
+          "cells": 423,
+          "ants": 40
+        },
+        {
+          "t": 3600,
+          "l1": 27019.51,
+          "radius": 24,
+          "cells": 418,
+          "ants": 39
+        },
+        {
+          "t": 3700,
+          "l1": 25527.46,
+          "radius": 24,
+          "cells": 402,
+          "ants": 39
+        },
+        {
+          "t": 3800,
+          "l1": 26632.35,
+          "radius": 24,
+          "cells": 394,
+          "ants": 40
+        },
+        {
+          "t": 3900,
+          "l1": 35140.47,
+          "radius": 24,
+          "cells": 382,
+          "ants": 40
+        },
+        {
+          "t": 4000,
+          "l1": 45252.29,
+          "radius": 24,
+          "cells": 366,
+          "ants": 39
+        },
+        {
+          "t": 4100,
+          "l1": 50876.65,
+          "radius": 24,
+          "cells": 318,
+          "ants": 40
+        },
+        {
+          "t": 4200,
+          "l1": 52087.48,
+          "radius": 24,
+          "cells": 291,
+          "ants": 39
+        },
+        {
+          "t": 4300,
+          "l1": 49749.44,
+          "radius": 24,
+          "cells": 280,
+          "ants": 40
+        },
+        {
+          "t": 4400,
+          "l1": 48760.15,
+          "radius": 24,
+          "cells": 299,
+          "ants": 39
+        },
+        {
+          "t": 4500,
+          "l1": 64185.92,
+          "radius": 24,
+          "cells": 291,
+          "ants": 40
+        },
+        {
+          "t": 4600,
+          "l1": 61078.92,
+          "radius": 24,
+          "cells": 291,
+          "ants": 40
+        },
+        {
+          "t": 4700,
+          "l1": 60106.25,
+          "radius": 24,
+          "cells": 291,
+          "ants": 39
+        },
+        {
+          "t": 4800,
+          "l1": 58771.81,
+          "radius": 24,
+          "cells": 286,
+          "ants": 39
+        },
+        {
+          "t": 4900,
+          "l1": 61012.86,
+          "radius": 24,
+          "cells": 280,
+          "ants": 40
+        },
+        {
+          "t": 5000,
+          "l1": 67088.1,
+          "radius": 24,
+          "cells": 274,
+          "ants": 39
+        },
+        {
+          "t": 5100,
+          "l1": 64500.82,
+          "radius": 24,
+          "cells": 255,
+          "ants": 40
+        },
+        {
+          "t": 5200,
+          "l1": 61731.14,
+          "radius": 24,
+          "cells": 234,
+          "ants": 40
+        },
+        {
+          "t": 5300,
+          "l1": 58787.27,
+          "radius": 24,
+          "cells": 229,
+          "ants": 39
+        },
+        {
+          "t": 5400,
+          "l1": 65880.05,
+          "radius": 24,
+          "cells": 221,
+          "ants": 40
+        },
+        {
+          "t": 5500,
+          "l1": 66021.12,
+          "radius": 24,
+          "cells": 212,
+          "ants": 40
+        }
+      ]
+    },
+    {
+      "evap": 0.01,
+      "seed": "impulse-5",
+      "impulse": {
+        "cell": [
+          1,
+          6
+        ],
+        "distFromNest": 9,
+        "localPhero": 832,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.37,
+      "peakL1": 366,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 100,
+      "reconverged": 1400,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 366.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 133.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 49.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 17.95,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 6.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 2.4,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 0.88,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 0.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.01,
+      "seed": "impulse-6",
+      "impulse": {
+        "cell": [
+          9,
+          2
+        ],
+        "distFromNest": 11,
+        "localPhero": 276,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.37,
+      "peakL1": 366,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 100,
+      "reconverged": 1400,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 366.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 133.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 49.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 17.95,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 6.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 2.4,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 0.88,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 0.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.01,
+      "seed": "impulse-7",
+      "impulse": {
+        "cell": [
+          6,
+          1
+        ],
+        "distFromNest": 11,
+        "localPhero": 0,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.37,
+      "peakL1": 366,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 100,
+      "reconverged": 1400,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 366.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 133.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 49.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 17.95,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 6.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 2.41,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 0.88,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 0.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.01,
+      "seed": "impulse-8",
+      "impulse": {
+        "cell": [
+          6,
+          1
+        ],
+        "distFromNest": 9,
+        "localPhero": 87,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.37,
+      "peakL1": 366,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 100,
+      "reconverged": 1400,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 366.03,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 133.98,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 49.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 17.95,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 6.57,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 2.41,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 0.88,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 0.32,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 0.12,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 0.02,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.02,
+      "seed": "impulse-1",
+      "impulse": {
+        "cell": [
+          2,
+          4
+        ],
+        "distFromNest": 10,
+        "localPhero": 0,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.13,
+      "peakL1": 132.6,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 100,
+      "reconverged": 700,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 132.62,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 17.59,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 2.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 0.31,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.02,
+      "seed": "impulse-2",
+      "impulse": {
+        "cell": [
+          6,
+          7
+        ],
+        "distFromNest": 11,
+        "localPhero": 0,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.13,
+      "peakL1": 132.6,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 100,
+      "reconverged": 700,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 132.62,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 17.59,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 2.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 0.31,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.02,
+      "seed": "impulse-3",
+      "impulse": {
+        "cell": [
+          2,
+          9
+        ],
+        "distFromNest": 9,
+        "localPhero": 0,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.13,
+      "peakL1": 132.6,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 100,
+      "reconverged": 700,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 132.62,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 17.59,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 2.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 0.31,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.02,
+      "seed": "impulse-4",
+      "impulse": {
+        "cell": [
+          1,
+          6
+        ],
+        "distFromNest": 9,
+        "localPhero": 0,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": true,
+      "captured": true,
+      "antsAtEnd": 40,
+      "antsAtStart": 40,
+      "captureTick": 100,
+      "gain": 19.17,
+      "peakL1": 19166.7,
+      "peakTick": 5000,
+      "ticksToPeak": 3500,
+      "radius": 28,
+      "halfLife": 100,
+      "reconverged": null,
+      "foodDelta": 5,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 132.62,
+          "radius": 0,
+          "cells": 1,
+          "ants": 1
+        },
+        {
+          "t": 1700,
+          "l1": 17.59,
+          "radius": 0,
+          "cells": 1,
+          "ants": 1
+        },
+        {
+          "t": 1800,
+          "l1": 2.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 1
+        },
+        {
+          "t": 1900,
+          "l1": 0.31,
+          "radius": 0,
+          "cells": 1,
+          "ants": 1
+        },
+        {
+          "t": 2000,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 1
+        },
+        {
+          "t": 2100,
+          "l1": 4414.26,
+          "radius": 28,
+          "cells": 108,
+          "ants": 31
+        },
+        {
+          "t": 2200,
+          "l1": 8019.55,
+          "radius": 28,
+          "cells": 225,
+          "ants": 40
+        },
+        {
+          "t": 2300,
+          "l1": 8878.99,
+          "radius": 28,
+          "cells": 301,
+          "ants": 40
+        },
+        {
+          "t": 2400,
+          "l1": 9142.16,
+          "radius": 28,
+          "cells": 365,
+          "ants": 40
+        },
+        {
+          "t": 2500,
+          "l1": 5714.24,
+          "radius": 28,
+          "cells": 380,
+          "ants": 39
+        },
+        {
+          "t": 2600,
+          "l1": 6573.04,
+          "radius": 28,
+          "cells": 402,
+          "ants": 40
+        },
+        {
+          "t": 2700,
+          "l1": 8422.03,
+          "radius": 28,
+          "cells": 387,
+          "ants": 40
+        },
+        {
+          "t": 2800,
+          "l1": 10085.55,
+          "radius": 28,
+          "cells": 406,
+          "ants": 40
+        },
+        {
+          "t": 2900,
+          "l1": 10154.44,
+          "radius": 28,
+          "cells": 432,
+          "ants": 39
+        },
+        {
+          "t": 3000,
+          "l1": 10378.05,
+          "radius": 28,
+          "cells": 434,
+          "ants": 40
+        },
+        {
+          "t": 3100,
+          "l1": 10047.19,
+          "radius": 28,
+          "cells": 442,
+          "ants": 40
+        },
+        {
+          "t": 3200,
+          "l1": 10562.66,
+          "radius": 28,
+          "cells": 425,
+          "ants": 40
+        },
+        {
+          "t": 3300,
+          "l1": 10290.56,
+          "radius": 28,
+          "cells": 453,
+          "ants": 40
+        },
+        {
+          "t": 3400,
+          "l1": 11643.26,
+          "radius": 28,
+          "cells": 446,
+          "ants": 40
+        },
+        {
+          "t": 3500,
+          "l1": 12714.65,
+          "radius": 28,
+          "cells": 410,
+          "ants": 40
+        },
+        {
+          "t": 3600,
+          "l1": 15884.81,
+          "radius": 28,
+          "cells": 390,
+          "ants": 40
+        },
+        {
+          "t": 3700,
+          "l1": 16946.96,
+          "radius": 28,
+          "cells": 375,
+          "ants": 39
+        },
+        {
+          "t": 3800,
+          "l1": 16921.8,
+          "radius": 28,
+          "cells": 377,
+          "ants": 40
+        },
+        {
+          "t": 3900,
+          "l1": 13162.16,
+          "radius": 28,
+          "cells": 355,
+          "ants": 40
+        },
+        {
+          "t": 4000,
+          "l1": 10147.32,
+          "radius": 28,
+          "cells": 363,
+          "ants": 40
+        },
+        {
+          "t": 4100,
+          "l1": 6703.85,
+          "radius": 28,
+          "cells": 373,
+          "ants": 40
+        },
+        {
+          "t": 4200,
+          "l1": 5215.26,
+          "radius": 28,
+          "cells": 361,
+          "ants": 40
+        },
+        {
+          "t": 4300,
+          "l1": 6977.93,
+          "radius": 28,
+          "cells": 364,
+          "ants": 40
+        },
+        {
+          "t": 4400,
+          "l1": 9923.54,
+          "radius": 28,
+          "cells": 375,
+          "ants": 40
+        },
+        {
+          "t": 4500,
+          "l1": 11907.24,
+          "radius": 28,
+          "cells": 344,
+          "ants": 40
+        },
+        {
+          "t": 4600,
+          "l1": 12959.69,
+          "radius": 28,
+          "cells": 324,
+          "ants": 40
+        },
+        {
+          "t": 4700,
+          "l1": 17544.54,
+          "radius": 28,
+          "cells": 354,
+          "ants": 40
+        },
+        {
+          "t": 4800,
+          "l1": 17337.24,
+          "radius": 28,
+          "cells": 387,
+          "ants": 40
+        },
+        {
+          "t": 4900,
+          "l1": 17666.16,
+          "radius": 28,
+          "cells": 385,
+          "ants": 40
+        },
+        {
+          "t": 5000,
+          "l1": 19166.68,
+          "radius": 28,
+          "cells": 408,
+          "ants": 40
+        },
+        {
+          "t": 5100,
+          "l1": 11621.38,
+          "radius": 28,
+          "cells": 401,
+          "ants": 40
+        },
+        {
+          "t": 5200,
+          "l1": 9471.58,
+          "radius": 28,
+          "cells": 387,
+          "ants": 40
+        },
+        {
+          "t": 5300,
+          "l1": 7473.08,
+          "radius": 26,
+          "cells": 382,
+          "ants": 40
+        },
+        {
+          "t": 5400,
+          "l1": 7401.69,
+          "radius": 28,
+          "cells": 379,
+          "ants": 40
+        },
+        {
+          "t": 5500,
+          "l1": 7982.66,
+          "radius": 28,
+          "cells": 369,
+          "ants": 40
+        }
+      ]
+    },
+    {
+      "evap": 0.02,
+      "seed": "impulse-5",
+      "impulse": {
+        "cell": [
+          1,
+          6
+        ],
+        "distFromNest": 9,
+        "localPhero": 54,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.13,
+      "peakL1": 132.6,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 100,
+      "reconverged": 700,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 132.62,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 17.59,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 2.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 0.31,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.02,
+      "seed": "impulse-6",
+      "impulse": {
+        "cell": [
+          8,
+          3
+        ],
+        "distFromNest": 9,
+        "localPhero": 81,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.13,
+      "peakL1": 132.6,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 100,
+      "reconverged": 700,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 132.62,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 17.59,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 2.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 0.31,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    },
+    {
+      "evap": 0.02,
+      "seed": "impulse-7",
+      "impulse": {
+        "cell": [
+          6,
+          1
+        ],
+        "distFromNest": 11,
+        "localPhero": 50,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": true,
+      "captured": true,
+      "antsAtEnd": 40,
+      "antsAtStart": 40,
+      "captureTick": 100,
+      "gain": 27.73,
+      "peakL1": 27728.4,
+      "peakTick": 5200,
+      "ticksToPeak": 3700,
+      "radius": 28,
+      "halfLife": null,
+      "reconverged": null,
+      "foodDelta": -94,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 551.08,
+          "radius": 7,
+          "cells": 12,
+          "ants": 4
+        },
+        {
+          "t": 1700,
+          "l1": 3197.7,
+          "radius": 23,
+          "cells": 70,
+          "ants": 20
+        },
+        {
+          "t": 1800,
+          "l1": 11916.09,
+          "radius": 23,
+          "cells": 168,
+          "ants": 39
+        },
+        {
+          "t": 1900,
+          "l1": 15556.84,
+          "radius": 23,
+          "cells": 223,
+          "ants": 39
+        },
+        {
+          "t": 2000,
+          "l1": 14212.24,
+          "radius": 26,
+          "cells": 261,
+          "ants": 40
+        },
+        {
+          "t": 2100,
+          "l1": 12400.19,
+          "radius": 28,
+          "cells": 289,
+          "ants": 40
+        },
+        {
+          "t": 2200,
+          "l1": 9185.06,
+          "radius": 28,
+          "cells": 299,
+          "ants": 40
+        },
+        {
+          "t": 2300,
+          "l1": 8321.15,
+          "radius": 28,
+          "cells": 307,
+          "ants": 39
+        },
+        {
+          "t": 2400,
+          "l1": 8078.34,
+          "radius": 28,
+          "cells": 303,
+          "ants": 40
+        },
+        {
+          "t": 2500,
+          "l1": 9738.32,
+          "radius": 28,
+          "cells": 331,
+          "ants": 40
+        },
+        {
+          "t": 2600,
+          "l1": 11345.88,
+          "radius": 28,
+          "cells": 347,
+          "ants": 38
+        },
+        {
+          "t": 2700,
+          "l1": 10683.46,
+          "radius": 28,
+          "cells": 374,
+          "ants": 40
+        },
+        {
+          "t": 2800,
+          "l1": 14316.4,
+          "radius": 28,
+          "cells": 385,
+          "ants": 40
+        },
+        {
+          "t": 2900,
+          "l1": 18136.85,
+          "radius": 28,
+          "cells": 391,
+          "ants": 40
+        },
+        {
+          "t": 3000,
+          "l1": 19602.53,
+          "radius": 28,
+          "cells": 381,
+          "ants": 40
+        },
+        {
+          "t": 3100,
+          "l1": 19875.53,
+          "radius": 28,
+          "cells": 335,
+          "ants": 40
+        },
+        {
+          "t": 3200,
+          "l1": 18479.37,
+          "radius": 28,
+          "cells": 277,
+          "ants": 40
+        },
+        {
+          "t": 3300,
+          "l1": 14538.97,
+          "radius": 28,
+          "cells": 257,
+          "ants": 40
+        },
+        {
+          "t": 3400,
+          "l1": 14373.11,
+          "radius": 28,
+          "cells": 252,
+          "ants": 40
+        },
+        {
+          "t": 3500,
+          "l1": 18190.62,
+          "radius": 28,
+          "cells": 254,
+          "ants": 40
+        },
+        {
+          "t": 3600,
+          "l1": 16562.72,
+          "radius": 28,
+          "cells": 275,
+          "ants": 40
+        },
+        {
+          "t": 3700,
+          "l1": 14615.51,
+          "radius": 28,
+          "cells": 270,
+          "ants": 40
+        },
+        {
+          "t": 3800,
+          "l1": 16271.67,
+          "radius": 28,
+          "cells": 256,
+          "ants": 40
+        },
+        {
+          "t": 3900,
+          "l1": 15988.73,
+          "radius": 28,
+          "cells": 231,
+          "ants": 40
+        },
+        {
+          "t": 4000,
+          "l1": 15677.95,
+          "radius": 26,
+          "cells": 190,
+          "ants": 40
+        },
+        {
+          "t": 4100,
+          "l1": 16090.1,
+          "radius": 23,
+          "cells": 184,
+          "ants": 40
+        },
+        {
+          "t": 4200,
+          "l1": 14164.88,
+          "radius": 24,
+          "cells": 198,
+          "ants": 40
+        },
+        {
+          "t": 4300,
+          "l1": 12823.61,
+          "radius": 24,
+          "cells": 194,
+          "ants": 39
+        },
+        {
+          "t": 4400,
+          "l1": 14415.51,
+          "radius": 24,
+          "cells": 202,
+          "ants": 40
+        },
+        {
+          "t": 4500,
+          "l1": 19213.73,
+          "radius": 24,
+          "cells": 247,
+          "ants": 40
+        },
+        {
+          "t": 4600,
+          "l1": 20428.78,
+          "radius": 26,
+          "cells": 262,
+          "ants": 40
+        },
+        {
+          "t": 4700,
+          "l1": 20949.91,
+          "radius": 28,
+          "cells": 281,
+          "ants": 40
+        },
+        {
+          "t": 4800,
+          "l1": 21660.07,
+          "radius": 28,
+          "cells": 285,
+          "ants": 40
+        },
+        {
+          "t": 4900,
+          "l1": 22286.15,
+          "radius": 28,
+          "cells": 272,
+          "ants": 40
+        },
+        {
+          "t": 5000,
+          "l1": 22345.96,
+          "radius": 28,
+          "cells": 250,
+          "ants": 40
+        },
+        {
+          "t": 5100,
+          "l1": 22724.74,
+          "radius": 28,
+          "cells": 229,
+          "ants": 40
+        },
+        {
+          "t": 5200,
+          "l1": 27728.41,
+          "radius": 28,
+          "cells": 222,
+          "ants": 40
+        },
+        {
+          "t": 5300,
+          "l1": 27359.47,
+          "radius": 28,
+          "cells": 198,
+          "ants": 40
+        },
+        {
+          "t": 5400,
+          "l1": 26007.19,
+          "radius": 25,
+          "cells": 160,
+          "ants": 40
+        },
+        {
+          "t": 5500,
+          "l1": 25879.57,
+          "radius": 25,
+          "cells": 186,
+          "ants": 40
+        }
+      ]
+    },
+    {
+      "evap": 0.02,
+      "seed": "impulse-8",
+      "impulse": {
+        "cell": [
+          6,
+          1
+        ],
+        "distFromNest": 9,
+        "localPhero": 25,
+        "where": "empty",
+        "channel": "food",
+        "amount": 1000,
+        "t0": 1500
+      },
+      "read": false,
+      "captured": false,
+      "antsAtEnd": 0,
+      "antsAtStart": 40,
+      "captureTick": null,
+      "gain": 0.13,
+      "peakL1": 132.6,
+      "peakTick": 1600,
+      "ticksToPeak": 100,
+      "radius": 0,
+      "halfLife": 100,
+      "reconverged": 700,
+      "foodDelta": 0,
+      "series": [
+        {
+          "t": 1600,
+          "l1": 132.62,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1700,
+          "l1": 17.59,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1800,
+          "l1": 2.33,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 1900,
+          "l1": 0.31,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2000,
+          "l1": 0.04,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2100,
+          "l1": 0.01,
+          "radius": 0,
+          "cells": 1,
+          "ants": 0
+        },
+        {
+          "t": 2200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 2900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 3900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4600,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4700,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4800,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 4900,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5000,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5100,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5200,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5300,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5400,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        },
+        {
+          "t": 5500,
+          "l1": 0,
+          "radius": 0,
+          "cells": 0,
+          "ants": 0
+        }
+      ]
+    }
+  ]
+}
