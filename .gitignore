@@ -1,0 +1,6 @@
+.DS_Store
+.impeccable/
+node_modules/
+__pycache__/
+*.pyc
+.env
