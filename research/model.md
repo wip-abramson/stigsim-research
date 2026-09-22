@@ -7,6 +7,11 @@
 > "horizon" measured here so far moved when the clock was given more room. This page is the whole
 > account; everything else is evidence for it.
 
+Revised 2026-09-22 (late, third pass): stale claims brought into line with the re-tests — the
+"transient trails" reading of the twelve-junction cell (§3b), the quadratic-returns sentence (§4),
+the untested mechanism in §4b and §5, and the security section's reliance on a maze-dependent
+penalty. Sections still built on 6000-tick data say so where they are quoted.
+
 Revised 2026-09-22 (evening, second pass): the ridge of §4d was a food-cap artifact and is retracted
 there; the comb experiment (§3b) measures decisions directly; and §4e shows the far side of the
 horizon is a time budget.
@@ -22,7 +27,7 @@ order things were run. Every number here is from `results/`, indexed in [`run-lo
 |---|---|
 | **decision** | a cell with three or more exits. An ant reads only its four orthogonal neighbours and drops the one it just left, so in a corridor it has exactly one option and pheromone is **irrelevant** |
 | **influence budget** | how much trail one agent can lay before running dry — `tankMax`, the simulator's *gland size*. Refilled only at the nest or on picking up real food, so it is a rate limit denominated in work, not a lifetime total |
-| **coordination horizon** D\* | where a colony does no better than the same number of agents that never communicate |
+| **coordination horizon** D\* | where a colony does no better than the same number of agents that never communicate. **None has been found** (§4e): every candidate moved when the run was given more time |
 | **discovery** | finding the thing at all. Here it is random search, and it is *not* the interesting part |
 
 ---
@@ -32,7 +37,7 @@ order things were run. Every number here is from `results/`, indexed in [`run-lo
 | variable | controls | in stigsim | status |
 |---|---|---|---|
 | decision density | how often an ant has a choice | `loopRate` | **swept** 0 → 1.0. The strongest single predictor |
-| colony size *N* | traffic, and how much reinforcement a choice gets | `numAnts` | **swept** 10 → 160 |
+| colony size *N* | traffic, and how much reinforcement a choice gets | `numAnts` | **swept** 8 → 384. Sets how soon a trail forms, not how much it is worth |
 | influence budget | trail per journey | `tankMax` (gland size) | **swept** 300 → 51 200. Has a geometric floor |
 | evaporation *e* | how fast a trace fades | `doctrine.evapRate` | **swept** 0.0005 → 0.05. A cliff, not a curve |
 | trail trust *n* | how strongly an ant prefers a stronger cell, `(scent+1)^n` | forager follow weight | swept once; does not gate the result. **Next to look at** |
@@ -40,14 +45,17 @@ order things were run. Every number here is from `results/`, indexed in [`run-lo
 | deposit rate | **60 units per cell** — 3 deposits × `DEPOSIT_RATE` 20 | `DEPOSITS_PER_CELL` | fixed |
 
 **Operating point for single-variable work:** `loopRate` 0.12, 40 ants, food 40 cells out, 2500
-units, 6000 ticks. Runs at 58% of its throughput ceiling — room to improve and room to fail.
+units, 6000 ticks. Runs at 58% of its throughput ceiling — room to improve and room to fail. Used for
+the §5 sweeps. The re-tests (§3b, §4c-bis, §4d, §4e) use 50,000 units, which no run exhausts, and
+6000, 18000 or 54000 ticks.
 
 ---
 
 ## 1. Discovery is free. Coordination is not.
 
-96 of 96 runs found the food, at every distance and every decay rate. What collapsed with distance
-was organising around it (1.00 → 0.05 delivered across six distance bins).
+96 of 96 runs found the food, at every distance and every decay rate. What fell with distance, in a
+6000-tick run, was organising around it (1.00 → 0.05 delivered across six distance bins). §4e shows
+that fall is the run ending before far colonies had formed their trails, not a limit on distance.
 
 This is not a fact about stigmergy. `odor()` fires only on the *exact* food cell — there is no
 gradient at range — so discovery is pure coverage, and 40 ants over 6000 ticks cover a 31×31 maze
@@ -78,7 +86,9 @@ offer no choice at all**. `loopRate` is therefore the decision-density dial:
 | 1.0 | 23 | 23 | 1.0 |
 
 Sweeping it decouples distance from decisions (r = −0.14, where within one maze they are nearly
-proportional). Holding one and moving the other:
+proportional). Holding one and moving the other (`horizon-loopsweep.json`, `distance-loop-compare.json`;
+both 6000 ticks, before the censoring fixes, and not re-run since — the direction is confirmed on the
+comb in §3b, the magnitudes are not):
 
 - **at matched distance, decisions swing success 93% → 38%**, monotonically
 - **at matched decisions, distance swings it 98% → 71%**, and not monotonically
@@ -126,14 +136,15 @@ turn rate is 22–42% instead of 2%, and yield sits at 5–43% of ceiling. Given
 (`comb-longrun.json`), every one of them except *k* = 12 at N = 10 reaches ~100% of ceiling in
 the final third, with the same late-window bonus as the big colonies (6.4–6.8× at six junctions,
 9.6–10× at eight, 16.6–17× at twelve). Slowing evaporation four-fold does not help any of them
-(`comb-slowevap.json`: paired wins 8–14, 9–14, 6–18 on the failing cells). **The one cell that
-stays marginal at three times the budget is twelve junctions with ten ants**: trails form
-transiently in 18 of 24 seeds and never hold; the colony runs at 9% of ceiling to the end.
+(`comb-slowevap.json`: paired wins 8–14, 9–14, 6–18 on the failing cells). **The one cell still
+marginal at three times the budget is twelve junctions with ten ants**: by tick 18000 only 7 of 24
+seeds have taken off (a 1000-tick window at half the conveyor ceiling), and all 7 hold to the end —
+there are no trails that form and then collapse. At 54000 ticks the same cell takes off in 19 of 24
+seeds (§4e).
 
-> **What an extra ant buys is not a bigger bonus. It buys the trail sooner — and, past some
-> decisions-per-ant threshold, the trail at all.** Where a trail exists, the value of stigmergy is
-> set by the geometry (how many decisions, how much a wrong one costs) and by nothing about the
-> colony.
+> **What an extra ant buys is not a bigger bonus. It buys the trail sooner.** Where a trail exists,
+> the value of stigmergy is set by the geometry (how many decisions, how much a wrong one costs) and
+> by nothing about the colony. Whether a small enough colony can *never* form one is open (§4e).
 
 ## 4. What colony size does depends on whether there are decisions
 
@@ -152,11 +163,16 @@ colony that had not finished organising when the run ended.
 > worth nothing extra; where there are many, it is worth a multiple set by the junctions — and a
 > small colony takes longer to collect it.
 
-Consistent with this: in a branchy maze, food scales as **N^1.99** with stigmergy against **N^1.08**
-for the no-trail null — linear returns converted to quadratic. In a perfect maze, reach grows
-+23/+37/+44 cells per doubling and the coordinated-vs-null gap stays **flat at ~65 cells**, because
-food decays exponentially in distance (`L ≈ 45–52 cells`, R² 0.91–0.997) and a constant multiplier
-buys only an additive shift.
+~~In a branchy maze, food scales as N^1.99 with stigmergy against N^1.08 for the no-trail null —
+linear returns converted to quadratic.~~ **Retracted** — small colonies unfinished at 6000 ticks
+plus the largest at its food cap. Uncapped, established colonies scale as N^1.02–1.10 with trails and
+N^0.98–1.04 without (`breakeven-uncapped.json`): trails are a constant ~28× multiplier, not a change
+in how output grows with headcount.
+
+In a perfect maze (`distance-perfect-maze.json`, 6000 ticks), reach grows +23/+37/+44 cells per
+doubling and the coordinated-vs-null gap stays **flat at ~65 cells**, because food decays
+exponentially in distance (`L ≈ 45–52 cells`, R² 0.91–0.997) and a constant multiplier buys only an
+additive shift. Not re-run with a longer budget.
 
 ## 4b. Headcount is the channel — not pheromone mass
 
@@ -174,16 +190,17 @@ cells-per-leg stayed at 106 — so the comparison is *not* confounded by the inf
 | **matched deposition** | 80 quiet ants vs 40 ants twice as loud | bigger colony wins **57 / 19** |
 | **matched deposition** | 120 quiet vs 40 ants three times as loud | bigger colony wins **64 / 11** |
 
-At 60–74 cells: making every ant 3× louder takes 32 food to 48. Tripling the *number* of ants takes
-32 to 498.
+~~At 60–74 cells: making every ant 3× louder takes 32 food to 48. Tripling the *number* of ants takes
+32 to 498.~~ Do not quote this magnitude: the 120-ant arm sat at its 500-unit cap (494–500). The
+direction replicates uncapped on both instruments (§4c-bis).
 
 > **Pheromone mass per tick is not the channel colony size acts through.** Tripling every ant's
-> output changes nothing; tripling the ants changes everything. What more ants supply is more
-> *independent traversals of the junction* — more chances to resolve a branch correctly and more
-> agents to reinforce that resolution.
+> output changes nothing; tripling the ants changes everything.
 
-That is why §3 and §4 fit together: coordination is about resolving decisions, and only bodies at
-junctions resolve them. Louder shouting at the same junction does not.
+The best current reading is that what more ants supply is more *independent traversals of each
+junction* — more chances to resolve a branch correctly and more agents to reinforce that
+resolution. It fits §3 and §4: coordination is about resolving decisions, and louder shouting at the
+same junction does not resolve one. **It has not been tested directly.**
 
 ## 4c. What it costs a colony with no trails
 
@@ -287,9 +304,10 @@ curve lands exactly in the interval containing the prediction — ×3.07 at 1800
 ×2.41 at 2400 (26/32). At 55 cells there is no step: that colony already runs at ~33% of its
 throughput limit, so coordination caps it and the threshold is masked.
 
-Above the floor, a long tolerant plateau, then slow decay — 9600 beats 51 200 on 25 of 27. An
-over-supplied ant that never finds anything keeps broadcasting, painting noise into the field the
-signal lives in.
+Above the floor, a long tolerant plateau. In the random maze only, slow decay follows — 9600 beats
+51 200 on 25 of 27; the comb shows none. One guess is that an over-supplied ant that never finds
+anything keeps broadcasting, painting noise into the field the signal lives in. **Untested**, and
+the comb result means the cause depends on maze structure.
 
 ---
 
@@ -302,14 +320,16 @@ something it lacked — a quantity, and it is not the one we started with.
 `evapRate` was the assumed security knob. It turns out to be weak, and it is a property of the
 medium that no agent pays for.
 
-The **influence budget** is the real one. It is per-agent, it is denominated in physical work
-(refilled only by reaching the nest or genuinely finding food), and **a colony granted an unlimited
-budget coordinates worse than one that is rationed.** The bound is not a defence you tolerate for
-safety; it is load-bearing for the coordination itself, and the security property falls out of
-something the system needs anyway.
+The **influence budget** is the more promising one. It is per-agent, it is denominated in physical
+work (refilled only by reaching the nest or genuinely finding food), and it has a size: **`d × 60`**.
+Below that a colony coordinates badly; above it, **granting more buys nothing** (flat on the comb,
+slowly worse in the random maze). So a system can ration each agent's influence to exactly what
+coordination over distance *d* needs and lose nothing — the bound costs the honest colony nothing.
+That is the original thesis arriving from the agent's side, with a number.
 
-And it has a size: **`d × 60`** — the budget a system must grant one agent is set by the distance it
-needs to coordinate over. That is the original thesis arriving from the agent's side, with a number.
+A stronger claim appeared in an earlier version: that an unlimited budget coordinates *worse*, so
+the bound is load-bearing for coordination itself. That rests on the random-maze decay alone, which
+the comb does not reproduce, and is withdrawn until its cause is known.
 
 **Untested:** none of this has been run against an adversary that pays the same costs. The
 `subvert.ts` harness exists for exactly that and has only been smoke-tested.
@@ -327,7 +347,9 @@ needs to coordinate over. That is the original thesis arriving from the agent's 
 | the ridge (§4d) | **retracted** — a food-cap artifact; see the section |
 | a hard horizon | **none found.** The last candidate (12 junctions, 10 ants) takes off in 19/24 seeds by tick 54000, median tick 22000 (`comb-54k.json`); 5/24 never did. Whether take-off time diverges needs more forks per path: a comb with 4-way crossings |
 | superlinear returns to scale (N^1.99) | **retracted.** Where trails are established, food scales as N^1.0–1.1 with and without trails (`breakeven-uncapped`, comb). The steep slope was unfinished small colonies |
-| the N-dependence of the bonus | **gone** where the trail is established (§3b). What N buys is establishment time, and the threshold below which a trail cannot be held at all. The decisions-per-ant form of that threshold is unmeasured |
+| the N-dependence of the bonus | **gone** where the trail is established (§3b). What N buys is establishment time. Whether that time diverges below some colony size per junction (a hard threshold) is unmeasured: at 12 junctions it is ~7000 ticks for 20 ants, ~13000 for 14, ~22000 for 10 — three points |
+| "rationed beats unlimited" budget | **withdrawn** (§5). Random maze only; the comb shows no penalty |
+| decision-density magnitudes (§3) | 6000-tick data, not re-run. Direction confirmed by the comb; the 93%→38% and 14×→3× figures are not |
 
 ---
 

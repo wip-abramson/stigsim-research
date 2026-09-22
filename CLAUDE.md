@@ -5,14 +5,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## What this directory is
 
 A **research workspace** for investigating stigmergic systems, running roughly 2026-09-21 → 09-23,
-as part of a collaborative hackathon with fellow researchers. The method: play games on the hosted
-simulator, save the run records, and mine them for hypotheses.
+as part of a collaborative hackathon with fellow researchers. The method began as playing games on
+the hosted simulator and mining the run records; it is now mostly headless parameter sweeps, paired
+on seed against a no-trail twin, with curated runs exported as traces anyone can watch.
 
 **The research question** (see `research/model.md` — read it first, it is the whole thesis on one
 page) is what sets the **coordination horizon**: the distance beyond which a colony does no better
-than the same number of agents that don't communicate at all. The model is that the horizon is set
-by how far one agent's trace can influence others (the *influence bound*, λ ≈ 1/(4·evapRate) cells)
-multiplied up by traffic from having many agents. Colony size *N* is the open blank.
+than the same number of agents that don't communicate at all. The current answer: **no such
+distance has been found.** A trail's value is set by the junctions on the route (how many, and what
+a wrong turn costs), not by distance or colony size; what colony size buys is *time* for the trail
+to form. The open question is whether that time ever diverges — a hard horizon in forks per ant.
+The earlier model (an influence bound λ ≈ 1/(4·evapRate) cells, multiplied by traffic) is withdrawn.
 
 The longer-term motivation — that stigmergic systems are secured *without identifying agents*, by
 bounding influence in time and space — is in `research/archive/programme.md`. It is parked until the
@@ -22,20 +25,23 @@ physics.
 - **Simulator (hosted, where games are played):** https://stigsim.protocol-institute.org/multiplayer/
 - **Simulator source (sibling checkout):** `/Users/wip/work/protocol-institute/stigsim`
 - `log/` — session log, one file per day. **Read the latest before doing anything** (see below)
+- `README.md` — the public front page: question, findings in plain English, how to run and watch
 - `research/model.md` — **start here.** The four terms, the variables and which are held fixed, what
-  is measured vs derived vs guessed, and the one open blank
-- `research/coordination-horizon.md` — the detailed write-up of the 96-run horizon measurement
+  is measured vs derived vs guessed, what has been retracted
+- `research/coordination-horizon.md` — the day-1 96-run horizon measurement; historical, see its header
 - `research/glossary.md` — simulator variables and where each lives in stigsim's source; the
   aliases we used before settling on one name each
 - `research/run-log.md` — index of records and headless results: what each varied, what it tests
 - `research/archive/` — superseded framings, with a README saying why each was set aside
 - `research/critiques/` — external critiques, verbatim, with provenance
 - `research/literature/` — related-work reviews and the reference list (checkable citations; verify before citing)
-- `tools/summarize.sh` → `tools/summarize-run.ts` — record → 8 KB interpreted summary (**use this**)
-- `tools/impulse.sh` → `tools/impulse-response.ts` — impulse-response harness (H7)
-- `tools/horizon.sh` → `tools/horizon.ts` — coordination-horizon sweep (H8)
-- `tools/digest.py` — older raw-JSON reader, fallback only
-- `results/` — headless sweep output (experimental evidence, distinct from game records)
+- `tools/junctions.sh` — the comb: fixed maze, junction count and distance set independently (main instrument)
+- `tools/distance.sh` — food at a set distance in a random maze, trail and no-trail arms paired
+- `tools/export-trace.sh`, `tools/export-curated.py` — one run → a trace the hosted Maze Simulator replays
+- `tools/summarize.sh` → `tools/summarize-run.ts` — game record → 8 KB interpreted summary
+- `tools/README.md` — every tool, which are parked and why, and the simulator traps that distort results
+- `results/` — headless sweep output (the evidence), indexed in `research/run-log.md`
+- `traces/` — 20 curated runs, one per experiment, loadable in the hosted Maze Simulator
 
 There is no build, lint, or test setup here — the "code" is analysis scripts over records.
 
@@ -48,8 +54,10 @@ the confound and give a *discriminating test* — a configuration whose outcome 
 whether the hypothesis holds. Prefer runs that vary one parameter with a static doctrine; live
 doctrine editing is fun to play but destroys the comparison.
 
-Score experiments on **food-collected-at-exhaustion** and trail mass, not win/loss — win/loss is
-near-uninformative here (see H4). Because this is a collaborative hackathon, bias toward artifacts
+Score experiments on **food delivered, paired on seed against a no-trail twin** (the coordination
+bonus), not win/loss. Before reading any ratio, check it is not censored: that the food cannot run
+out (use `--perSource 50000`) and that the run is long enough for small colonies to form trails
+(record a series, or run 18000+ ticks). Both censors have produced retracted findings here. Because this is a collaborative hackathon, bias toward artifacts
 others can pick up: shared tooling, a consistent capture protocol, and specs worth sending upstream
 to `stigsim` beat another private run record.
 

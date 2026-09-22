@@ -17,8 +17,10 @@ A colony is some ants, a 31×31 grid, and a few piles of food. Ants wander, find
 home, and drip scent ("pheromone") as they go. Other ants are drawn to scent, so a route that works
 gets re-walked, re-scented, and becomes a trail. Scent fades on its own. That is the whole system:
 **there is no communication between ants except what they leave on the ground**, which is what
-makes it *stigmergic*. Our research question is what stops a liar — an ant laying scent for food
-that isn't there — from steering everyone, given that nobody checks anybody's identity.
+makes it *stigmergic*. Our research question is how far that reaches: the distance, if any, beyond
+which a colony with scent does no better than the same ants without it (the **coordination
+horizon**). The longer-term question — what stops a liar steering everyone when nobody checks
+identities — is parked until that foundation is solid.
 
 ---
 
@@ -52,14 +54,16 @@ what the player in `velvet-ridge-4071` actually moved.
 ### `evapRate` — how fast scent fades
 **Lives at:** `doctrine.evapRate` · **default:** 0.005 · **max:** `MAX_EVAP_RATE`
 
-The fraction of every cell's scent that disappears each tick. **This is the central knob of the
-whole research programme**: it is what puts a *time limit* on how long anything one ant did can
-influence anyone else. Fast evaporation = short memory = a lie dies quickly, but so does a truth.
+The fraction of every cell's scent that disappears each tick. It puts a *time limit* on how long
+anything one ant did can influence anyone else. The programme began by treating it as the central
+knob; measured, it is **a plateau with a cliff**: nothing differs across 0.0005–0.012, and only
+0.05 collapses (`model.md` §5).
 
 ### `ants` / colony size *N*
-How many ants. Matters more than we first thought: a trail survives only if ants keep re-walking it
-before it fades, so **how often ants pass** is what really sets a trail's reach — and that depends
-on how many there are. See the `D_max` correction below.
+How many ants. Once a trail has formed, colony size does **not** change what it is worth: 10 ants
+and 160 get the same multiple from the same junctions. What a bigger colony buys is **time** — its
+trail forms sooner (`model.md` §3b, §4e). It does not act through the amount of scent laid: more
+ants beat louder ants at the same total scent (§4b).
 
 ### Doctrine
 A colony's whole behaviour policy as one editable object: trail trust per role and phase, how much
@@ -96,13 +100,45 @@ How many ticks between planting the lie and the colony swinging onto it. Turned 
 measure that actually responds to trail trust — see `archive/hypotheses.md` H7/E9.
 
 ### The coordination horizon
-The distance beyond which a colony can still *find* food but can no longer *organise around it*.
-Our central object. Discovery is unbounded; coordination is not.
+The distance beyond which a colony does no better than the same ants with no scent — it can still
+*find* food but cannot *organise around it*. Our central object. **None has been found**: every
+candidate moved outward when the run was given more time, so the limit that exists is the time a
+colony needs to form its trail (`model.md` §4e).
+
+### Coordination bonus
+Food delivered with scent divided by food delivered by the **no-trail colony** — the same ants, maze
+and seed with every lay weight set to 0. 1× means scent bought nothing. The score used throughout.
+
+### Junction (decision)
+A cell with three or more open neighbours. An ant senses its four neighbours and drops the one it
+just left, so in a corridor it can only go forward and scent does nothing; junctions are the only
+place a trail can help. `loopRate` sets how many a random maze has.
+
+### The comb
+A hand-built maze (`tools/junctions.ts`): a corridor of set length from nest to food with `--k`
+dead-end side branches of `--len` cells. Distance and junction count are set independently, and the
+maze is identical in every seed.
+
+### Conveyor ceiling
+`N·T/8d` — the most food *N* ants can deliver in *T* ticks over *d* cells if nobody takes a wrong
+turn (a round trip is 2*d* cells at 4 ticks per cell). Also tells you in advance which cells will
+hit a food cap.
+
+### Take-off
+When a colony's trail has formed: the first 1000-tick window delivering at least half the conveyor
+ceiling (comb) or several times the no-trail rate (random maze). Take-off time rises with junctions
+and falls with colony size.
+
+### `tankMax` — gland size, the influence budget
+How much scent an ant can lay before running dry. Refilled only at the nest or on picking up real
+food. Default 6400, which at 60 units per cell is 106 cells per leg. The floor for coordination
+over distance *d* is `d × 60` (`model.md` §5).
 
 ### `D_max` — how far a trail can reach
-An estimate of trail reach. **Our first form, `1/(8·evapRate)`, was wrong** — it came from one
-scent drop's round trip. The right form is about the *interval between reinforcing ants*, so colony
-size belongs in it. Ours underestimated by 2–4×.
+An estimate of trail reach. **Superseded.** The first form, `1/(8·evapRate)`, came from one scent
+drop's round trip and underestimated observed reach 2–4×. Its one-way cousin `λ = 1/(4·evapRate)`
+is broken too: λ is only where a mark has faded to 37%, and on empty ground a mark that weak still
+wins the ant's choice. Neither is used in the current model.
 
 ### τ_ref ("tau-ref") — how fast the world itself goes stale
 The rate at which information becomes wrong **on its own**, regardless of whether anyone consumes
@@ -122,8 +158,8 @@ here because `results/` filenames and the logs still refer to them.
 | E3 | Does information going stale on its own clock create a *hard* horizon? **Blocked** — stigsim can't express it |
 | E4 | Do shortcuts in the map widen the region an attacker can influence from? |
 | E5 | If you tell the lie *k* times, does success scale like `1-(1-p)^k`? |
-| E6 | Does trail reach grow with colony size, as the corrected `D_max` says? |
-| E7 | **Next up.** Compare `p_capture` against `p_exploit` at the same distance. The gap between them is the safety margin |
+| E6 | Does trail reach grow with colony size, as the corrected `D_max` says? **Answered differently:** colony size sets how soon a trail forms, not how far it reaches (`model.md` §4e) |
+| E7 | Compare `p_capture` against `p_exploit` at the same distance. The gap between them is the safety margin. **Parked** with the rest of the adversarial work, which needs an attacker that pays the same costs |
 | E8 | Does the observed capture rate fit the textbook Deneubourg curve? |
 | E9 | **Done 2026-09-22.** Sweep trail trust and find the tipping point. *There wasn't one* |
 
@@ -145,7 +181,8 @@ here because `results/` filenames and the logs still refer to them.
 
 ## Reading the units
 
-- **tick** — one simulation step. A run here is typically 4,000–7,000 ticks.
+- **tick** — one simulation step; an ant crosses one cell in 4. Early sweeps ran 4,000–7,000 ticks;
+  the re-tests run 6,000, 18,000 or 54,000, because 6,000 cut off colonies still forming trails.
 - **cell** — one square of the 31×31 grid. "25 cells" is most of the width of the world.
 - **food** — units collected. The score we use, per the working norms, *not* win/loss.
 - **seed** — the random-number starting point. Same seed + same settings = bit-identical run.

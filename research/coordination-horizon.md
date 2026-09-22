@@ -1,17 +1,18 @@
 # The coordination horizon
 
-> **Superseded a second time, 2026-09-22 evening — read [`model.md`](model.md) §4e.** The monotone
-> exploitation decay below is real at 6000 ticks and 40 ants, but it is an *establishment-time*
-> pattern, not a distance limit: the same colonies given 18000 ticks organise at 45–55 cells with
-> the same ~20–30× bonus they show at 35. The tables stand as a record of what a fixed tick budget
-> looks like; the word "horizon" in them should be read as "not yet".
-
-> **Superseded in one respect — read [`model.md`](model.md) first.** The measurement below stands
-> (96 runs, flat discovery control, monotone exploitation decay) and is the best evidence we have.
-> The *claim* beneath it does not: the horizon and the influence bound are **not** the same number.
-> They differ by a traffic amplification factor, and the data here already shows it — see "On the
-> D_max formula" below, where the error grows from 1.2× to 5× as decay speeds up. `model.md` treats
-> that gap as the research question. Kept in full because the tables are the evidence.
+> **Historical — this is the day-1 measurement and the argument built on it. Read
+> [`model.md`](model.md) for the current account.** What still stands: discovery is 100% at every
+> distance (96/96), so a no-trail colony is an honest baseline. What does not:
+>
+> - **The exploitation decay is a 6000-tick artifact, not a distance limit.** The same colonies given
+>   18000 ticks organise at 45–55 cells with the same ~20–30× bonus they show at 35 (`model.md`
+>   §4e). Read "horizon" in the tables below as "not yet".
+> - **The horizon is not the influence bound.** No hard horizon has been found at all, and the λ /
+>   `D_max` formulas below are withdrawn (`model.md`, "What is wrong or unfinished").
+> - **"Why this is the centre of the thesis"** argues from a horizon that the re-tests did not find.
+>   It is kept as the original motivation, not as a result.
+> - Open items 2 (connectivity) and 4 (colony size) have since been run: see `model.md` §3, §3b and
+>   §4e.
 
 > **The original claim, now known to be too strong:**
 > **The coordination horizon and the influence bound are the same quantity.** One is the benefit,
@@ -134,7 +135,7 @@ reachable and then bolting on defences.
 ## Open
 
 1. **Make τ_ref measurable** — food with an independent expiry. The hard-horizon claim rests on it.
-2. **Connectivity sweep.** `generateMaze(loopRate, …)` — `loopRate` near 0 is a perfect maze (high
+2. **Connectivity sweep.** *Done — `horizon-loopsweep.json`, `model.md` §3: decisions, not distance, drive success.* `generateMaze(loopRate, …)` — `loopRate` near 0 is a perfect maze (high
    diameter, one path between any two cells); near 1 is an open field. All runs so far are at 0.12.
    Prediction: the horizon extends with connectivity while each trace becomes *less* informative —
    in a maze "this way" is nearly a complete instruction, in an open field a weak hint. If both hold
@@ -142,6 +143,6 @@ reachable and then bolting on defences.
 3. **Does the horizon differ by channel?** `caut` warnings may not need the reach that food
    invitations do (H6). If negative information has a shorter horizon, it can be bounded harder, and
    place-based reputation becomes cheap.
-4. **Colony size.** Reach is held up by mutual reinforcement, which is why the D_max constant was
+4. **Colony size.** *Done — `model.md` §3b, §4e: colony size sets how soon a trail forms, not its reach or its value.* Reach is held up by mutual reinforcement, which is why the D_max constant was
    too small. The horizon should extend with population — making it partly a *budget* question, not
    only a geometry one.

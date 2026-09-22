@@ -39,18 +39,19 @@ import type { CellType, WorldSpec } from "../../../stigsim/packages/sim-core/src
 
 type Lay = "full" | "home" | "none";
 
-interface Comb {
+export interface Comb {
   grid: CellType[][];
   food: [number, number];
   dist: number;
   k: number;
   branchEntries: Set<number>;   // idx of the first cell of every branch
   junctions: Set<number>;       // idx of corridor cells that have a branch
+  branchCells: Set<number>;     // idx of every dead-end cell
 }
 
-const idx = (x: number, y: number) => y * COLS + x;
+export const idx = (x: number, y: number) => y * COLS + x;
 
-function buildComb(dist: number, k: number, len: number): Comb {
+export function buildComb(dist: number, k: number, len: number): Comb {
   const grid: CellType[][] = Array.from({ length: ROWS }, () => Array(COLS).fill(0) as CellType[]);
   const open = (x: number, y: number) => {
     if (x < 0 || y < 0 || x >= COLS || y >= ROWS) throw new Error(`comb out of bounds at ${x},${y}`);
@@ -75,17 +76,20 @@ function buildComb(dist: number, k: number, len: number): Comb {
   if (new Set(chosen).size !== chosen.length) throw new Error(`k=${k}: slot collision, choose a k that divides the leg`);
   if (legY - len < 1 || legY + len > ROWS - 2) throw new Error(`len ${len} does not fit`);
 
-  const branchEntries = new Set<number>(), junctions = new Set<number>();
+  const branchEntries = new Set<number>(), junctions = new Set<number>(), branchCells = new Set<number>();
   chosen.forEach((x, i) => {
     const up = i % 2 === 0;
-    for (let j = 1; j <= len; j++) open(x, up ? legY - j : legY + j);
+    for (let j = 1; j <= len; j++) {
+      open(x, up ? legY - j : legY + j);
+      branchCells.add(idx(x, up ? legY - j : legY + j));
+    }
     branchEntries.add(idx(x, up ? legY - 1 : legY + 1));
     junctions.add(idx(x, legY));
   });
-  return { grid, food: [foodX, legY], dist, k, branchEntries, junctions };
+  return { grid, food: [foodX, legY], dist, k, branchEntries, junctions, branchCells };
 }
 
-function combWorld(c: Comb): WorldSpec {
+export function combWorld(c: Comb): WorldSpec {
   return {
     occupancy: new DenseGrid(c.grid.map(r => [...r] as CellType[])),
     nests: [[1, 1]],
@@ -229,4 +233,5 @@ function main() {
   }
 }
 
-main();
+// Imported by liars.ts for the comb; run main only when invoked directly.
+if (process.argv[1]?.endsWith("junctions.ts")) main();
